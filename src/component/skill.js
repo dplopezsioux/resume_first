@@ -1,30 +1,36 @@
 import React from "react";
 
+const dataTest = {
+  tecnologies: ["nodejs", "MySQL", "MongoDB"],
+  languages: ["Javascript", "typescript", "C#", "C++"],
+  tools: ["Github", "mongoDb", "MySql", "SqlServer", "wiki"],
+};
+
 const Skill = () => {
   return (
-    <div class="bg-dark text-secondary px-4 py-5 text-center">
-      <article class="blog-post">
-        <div class="container p-5">
-          <div class="container px-4">
-            <div class="row gx-4">
-              <div class="col">
-                <div class="p-3 ">
-                  <table class="table text-light bg-dark  table-borderless">
+    <div className="bg-dark text-secondary p-1 mt-5 text-center">
+      <article className="blog-post">
+        <div className="container p-1">
+          <div className="container p-1">
+            <div className="row align-items-center mt-5">
+              <div className="col">
+                <div className="p-1">
+                  <table className="table text-light bg-dark  table-borderless">
                     <thead>
                       <tr>
-                        <th>Tecnologies</th>
+                        <th>
+                          <h1 className="display-6">Tecnologies</h1>
+                        </th>
                       </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <td>Node Js</td>
-                      </tr>
-                      <tr>
-                        <td>MySQL</td>
-                      </tr>
-                      <tr>
-                        <td>MongoDB</td>
-                      </tr>
+                      {dataTest.tecnologies.map((elemnt) => {
+                        return (
+                          <tr key={Math.random() * 1000000}>
+                            <td>{elemnt}</td>
+                          </tr>
+                        );
+                      })}
                     </tbody>
                     <tfoot>
                       <tr>
@@ -34,33 +40,24 @@ const Skill = () => {
                   </table>
                 </div>
               </div>
-              <div class="col">
-                <div class="p-3 ">
-                  <table class="table text-light bg-dark  table-borderless">
+              <div className="col">
+                <div className="p-1">
+                  <table className="table text-light bg-dark  table-borderless">
                     <thead>
                       <tr>
-                        <th>Lenguajes</th>
+                        <th>
+                          <h1 className="display-6">Lenguajes</h1>
+                        </th>
                       </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <td>Javascript</td>
-                      </tr>
-                      <tr>
-                        <td>Typescript</td>
-                      </tr>
-                      <tr>
-                        <td>C#</td>
-                      </tr>
-                      <tr>
-                        <td>SQL</td>
-                      </tr>
-                      <tr>
-                        <td>SQLite</td>
-                      </tr>
-                      <tr>
-                        <td>noSQL</td>
-                      </tr>
+                      {dataTest.languages.map((elemnt) => {
+                        return (
+                          <tr key={Math.random() * 1000000}>
+                            <td>{elemnt}</td>
+                          </tr>
+                        );
+                      })}
                     </tbody>
                     <tfoot>
                       <tr>
@@ -70,33 +67,24 @@ const Skill = () => {
                   </table>
                 </div>
               </div>
-              <div class="col">
-                <div class="p-3 ">
-                  <table class="table text-light bg-dark  table-borderless">
+              <div className="col">
+                <div className="p-1">
+                  <table className="table text-light bg-dark  table-borderless">
                     <thead>
                       <tr>
-                        <th>Tools</th>
+                        <th>
+                          <h1 className="display-6">Tools</h1>
+                        </th>
                       </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <td>GitHub</td>
-                      </tr>
-                      <tr>
-                        <td>Slack</td>
-                      </tr>
-                      <tr>
-                        <td>Express</td>
-                      </tr>
-                      <tr>
-                        <td>React JS</td>
-                      </tr>
-                      <tr>
-                        <td>C#</td>
-                      </tr>
-                      <tr>
-                        <td>C#</td>
-                      </tr>
+                      {dataTest.tools.map((elemnt) => {
+                        return (
+                          <tr key={Math.random() * 1000000}>
+                            <td>{elemnt}</td>
+                          </tr>
+                        );
+                      })}
                     </tbody>
                     <tfoot>
                       <tr>
@@ -108,28 +96,8 @@ const Skill = () => {
               </div>
             </div>
           </div>
+          <div>JALO</div>
         </div>
-
-        <blockquote>
-          <p>
-            Longer quote goes here, maybe with some{" "}
-            <strong>emphasized text</strong> in the middle of it.
-          </p>
-        </blockquote>
-        <p>
-          This is some additional paragraph placeholder content. It has been
-          written to fill the available space and show how a longer snippet of
-          text affects the surrounding content. We'll repeat it often to keep
-          the demonstration flowing, so be on the lookout for this exact same
-          string of text.
-        </p>
-        <h3>Example table</h3>
-        <p>And don't forget about tables in these posts:</p>
-        <p>
-          This is some additional paragraph placeholder content. It's a slightly
-          shorter version of the other highly repetitive body text used
-          throughout.
-        </p>
       </article>
     </div>
   );
