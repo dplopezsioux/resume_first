@@ -1,67 +1,78 @@
 import React from "react";
 import "./css/experience.css";
-import server from "../img/server.png";
 
-import * as Icon from "react-bootstrap-icons";
+//icon
+import { Icon } from "@iconify/react";
+import nginxIcon from "@iconify-icons/logos/nginx";
+import linuxTux from "@iconify-icons/logos/linux-tux";
+import awsIcon from "@iconify-icons/logos/aws";
+import dataEncryption from "@iconify-icons/flat-color-icons/data-encryption";
+import serverIcon from "@iconify-icons/bi/server";
+
+//
 
 const Experience = () => {
   return (
-    <div className="position-relative container ">
-      <div className="shadow overflow-hidden p-5 mt-5 text-center bg-light">
-        <div className="col-md-10  mx-auto my-5 palante">
-          <h1 className="mt-3 display-6 fw-bold text-dark">
-            The server configuration for this example!
-          </h1>
-
-          <div class="p-3 mt-3 row align-items-center">
-            <div class="col">
-              <p>I also have experience in Heroku, BlueHost, GoDaddy, Ionos.</p>
-              <img
-                className="mx-500"
-                src="https://www.nginx.com/wp-content/uploads/2021/05/NGINX-Service-Mesh-vertical-white-type.svg"
-              ></img>
-            </div>
-            <div class="col">
-              <p>I also have experience in Heroku, BlueHost, GoDaddy, Ionos.</p>
-              <img src="https://api.iconify.design/logos-aws-ec2.svg"></img>
-            </div>
-            <div class="col">
-              <p>I also have experience in Heroku, BlueHost, GoDaddy, Ionos.</p>
-              <img src="https://www.nginx.com/wp-content/uploads/2021/05/NGINX-Service-Mesh-vertical-white-type.svg"></img>
-            </div>
-            <div class="col">
-              <p>I also have experience in Heroku, BlueHost, GoDaddy, Ionos.</p>
-              <img src="https://www.nginx.com/wp-content/uploads/2021/05/NGINX-Service-Mesh-vertical-white-type.svg"></img>
-            </div>
-            <div class="col">
-              <p>I also have experience in Heroku, BlueHost, GoDaddy, Ionos.</p>
-              <img src="https://www.nginx.com/wp-content/uploads/2021/05/NGINX-Service-Mesh-vertical-white-type.svg"></img>
-            </div>
-            <div class="col">
-              <p>I also have experience in Heroku, BlueHost, GoDaddy, Ionos.</p>
-              <img src="https://www.nginx.com/wp-content/uploads/2021/05/NGINX-Service-Mesh-vertical-white-type.svg"></img>
-            </div>
+    <div className="container mt-5 px-3 py-4" id="featured-3 bg-secondary">
+      <h2 className="pb-2 border-bottom p-3 mb-2 bg-info text-dark">
+        <Icon icon={serverIcon} width="25" height="25" />
+        <span className="text-segundary">&lt;Server /&gt;</span> configuration
+        for this example!
+      </h2>
+      <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div className="feature col">
+          <Icon
+            className="bi rounded mx-auto d-block"
+            icon={awsIcon}
+            width="50"
+            height="50"
+          />
+          <h2 className="text-center">AWS cloud</h2>
+          <div className="text-center">
+            <p>
+              The AWS cloud computing platform provides the flexibility to
+              launch your application regardless of your use case or industry.
+            </p>
+            <p>
+              All items were purchased from AWS, dominion and instance of EC2
+              (ubntu)
+            </p>
           </div>
+        </div>
 
-          <h1 className="display-4 fw-normal palante">Punny headline</h1>
-          <p className="lead fw-normal">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
-          </p>
-          <a className="btn btn-outline-secondary" href="#">
-            Coming soon
-          </a>
+        <div className="feature col">
+          <Icon
+            className="bi rounded mx-auto d-block"
+            icon={nginxIcon}
+            width="50"
+            height="50"
+          />
+          <h2 className="text-center">Reverse Proxy Server</h2>
+          <div className="text-center">
+            <p>
+              NGINX handles the traffic from the domain to the port where the
+              nodeJS application runs, it also encrypts the data using{" "}
+              <Icon icon={dataEncryption} width="25" height="25" />
+              Let s Encrypt!
+            </p>
+          </div>
+        </div>
+        <div className="feature col">
+          <Icon
+            className="bi rounded mx-auto d-block"
+            icon={linuxTux}
+            width="50"
+            height="50"
+          />
+          <h2 className="mt-3 text-center">Featured title 3</h2>
+          <div className="text-center">
+            <p>
+              Ubuntu Server (20.04 lts) handle services like PM2, Github,
+              NodeJS, MySQL
+            </p>
+          </div>
         </div>
       </div>
-
-      <img className="product-device d-none d-md-block" src={server}></img>
     </div>
   );
 };

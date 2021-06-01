@@ -40,6 +40,921 @@ __webpack_require__(/*! regenerator-runtime/runtime */ "./node_modules/regenerat
 
 /***/ }),
 
+/***/ "./node_modules/@iconify-icons/bi/server.js":
+/*!**************************************************!*\
+  !*** ./node_modules/@iconify-icons/bi/server.js ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var data = {
+	"body": "<g fill=\"currentColor\"><path d=\"M1.333 2.667C1.333 1.194 4.318 0 8 0s6.667 1.194 6.667 2.667V4c0 1.473-2.985 2.667-6.667 2.667S1.333 5.473 1.333 4V2.667z\"/><path d=\"M1.333 6.334v3C1.333 10.805 4.318 12 8 12s6.667-1.194 6.667-2.667V6.334a6.51 6.51 0 0 1-1.458.79C11.81 7.684 9.967 8 8 8c-1.966 0-3.809-.317-5.208-.876a6.508 6.508 0 0 1-1.458-.79z\"/><path d=\"M14.667 11.668a6.51 6.51 0 0 1-1.458.789c-1.4.56-3.242.876-5.21.876c-1.966 0-3.809-.316-5.208-.876a6.51 6.51 0 0 1-1.458-.79v1.666C1.333 14.806 4.318 16 8 16s6.667-1.194 6.667-2.667v-1.665z\"/></g>",
+	"width": 16,
+	"height": 16
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (data);
+
+
+/***/ }),
+
+/***/ "./node_modules/@iconify-icons/flat-color-icons/data-encryption.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/@iconify-icons/flat-color-icons/data-encryption.js ***!
+  \*************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var data = {
+	"body": "<g fill=\"#D1C4E9\"><path d=\"M38 7H10c-1.1 0-2 .9-2 2v6c0 1.1.9 2 2 2h28c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2z\"/><path d=\"M38 19H10c-1.1 0-2 .9-2 2v6c0 1.1.9 2 2 2h25.1c1.3-1.3 4.9-.9 4.9-2v-6c0-1.1-.9-2-2-2z\"/><path d=\"M34.4 31H10c-1.1 0-2 .9-2 2v6c0 1.1.9 2 2 2h28c1.1 0 2-.9 2-2v-2.4c0-3.1-2.5-5.6-5.6-5.6z\"/></g><g fill=\"#FFA000\"><path d=\"M43 46l-2 2h-2l-2-2V35.4h6V40l-1 1l1 1v1l-1 1l1 1z\"/><path d=\"M47.5 28.5c-.3-.9-1-1.6-2-1.8c-1.3-.3-3.3-.7-5.5-.7s-4.2.4-5.5.6c-1 .2-1.7.9-2 1.8c-.2 1-.5 2.2-.5 3.6s.3 2.6.5 3.5c.3.9 1 1.6 2 1.8c1.3.3 3.2.6 5.5.6s4.2-.4 5.5-.6c1-.2 1.7-.9 2-1.8c.3-.9.5-2.1.5-3.5s-.3-2.6-.5-3.5zM42.9 31h-5.7c-.6 0-1.1-.5-1.1-1.1v-1.4c0-.3 1.8-.6 4-.6s4 .3 4 .6v1.4c-.1.6-.6 1.1-1.2 1.1z\"/></g><path fill=\"#D68600\" d=\"M39 37.1h1V48h-1z\"/>",
+	"width": 48,
+	"height": 48
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (data);
+
+
+/***/ }),
+
+/***/ "./node_modules/@iconify-icons/ion/logo-electron.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/@iconify-icons/ion/logo-electron.js ***!
+  \**********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var data = {
+	"body": "<path d=\"M86.76 255a9.89 9.89 0 0 0 4.87-1.29a9.82 9.82 0 0 0 3.65-13.43c-16.46-28.56-17.81-52.12-7.45-70c14.26-24.57 53.61-33.65 105.27-24.29a9.86 9.86 0 0 0 11.45-7.9a9.84 9.84 0 0 0-7.93-11.44c-29.19-5.28-56-5.18-77.39.3c-22.3 5.71-39 17.28-48.45 33.48c-14 24.19-12.7 54.73 7.42 89.62a9.85 9.85 0 0 0 8.56 4.95z\" fill=\"currentColor\"/><path d=\"M361.61 143.73c32.24.42 52.61 9.31 62.79 26.86c14.21 24.48 2.52 62.81-31.27 102.52a9.82 9.82 0 0 0 7.51 16.18a9.88 9.88 0 0 0 7.52-3.46c19.12-22.47 32.35-45.54 38.25-66.71c6.14-22 4.43-42.21-5-58.38c-13.8-23.78-40.13-36.15-79.59-36.67h-.14a9.83 9.83 0 0 0-.12 19.66z\" fill=\"currentColor\"/><path d=\"M326.47 414.89a9.88 9.88 0 0 0-13.5 3.35c-16.41 27.15-36.57 42.1-56.77 42.1c-28.49 0-56-29.31-73.73-78.42a9.87 9.87 0 0 0-12.59-5.92a9.83 9.83 0 0 0-6 12.58c10 27.77 23.47 50.75 39 66.46c16.11 16.34 34.55 25 53.32 25c27.38 0 53.54-18.33 73.65-51.61a9.81 9.81 0 0 0-3.38-13.5z\" fill=\"currentColor\"/><path d=\"M431.7 338.54a32.14 32.14 0 0 0-29.9 44.33c-41.8 19.5-119.8 4.79-191.87-36.62c-32.91-18.9-62.16-41.86-84.6-66.39a9.9 9.9 0 0 0-13.91-.65a9.8 9.8 0 0 0-.65 13.9c23.79 26 54.68 50.28 89.33 70.18c40.28 23.13 82.27 38.63 121.43 44.81a225.54 225.54 0 0 0 35 2.91c23.12 0 43-4.3 58.51-12.79a32.2 32.2 0 1 0 16.7-59.68zm0 44.66a12.6 12.6 0 0 1-7.82-2.72a10 10 0 0 0-2.2-2.21a12.61 12.61 0 1 1 10 4.93z\" fill=\"currentColor\"/><path d=\"M82.09 338.59c.57-21.26 12.41-47 33.68-73.16c23.19-28.45 56.69-56 94.34-77.65c33.25-19.1 65.2-31.9 98.07-38.91a9.83 9.83 0 1 0-4.12-19.22c-34.85 7.43-68.78 21-103.79 41.09C116.09 219.09 59.9 289.88 62.46 343.9a32.32 32.32 0 1 0 19.63-5.31zM80.3 383.2a12.5 12.5 0 1 1 12.59-12.5a12.56 12.56 0 0 1-12.59 12.5z\" fill=\"currentColor\"/><path d=\"M256.2 96.32a32.23 32.23 0 0 0 26.53-13.81c17.89 11.69 34 35 45.81 66.12c13 34.39 19.84 75.38 19.84 118.54c0 37.18-5.19 72.35-15 103.6a9.72 9.72 0 0 0 .66 7.49a9.82 9.82 0 0 0 5.8 4.84a9.89 9.89 0 0 0 12.34-6.44c10.42-33.14 15.93-70.34 15.93-109.49c0-47.17-7.77-91.77-22.47-129c-14.41-36.48-34.13-62.4-57.14-75.16a32.3 32.3 0 1 0-32.3 33.31zm0-44.66a12.5 12.5 0 1 1-12.59 12.5a12.56 12.56 0 0 1 12.59-12.5z\" fill=\"currentColor\"/><path d=\"M251 243.36a24.35 24.35 0 0 0 5.16 48.16a24.68 24.68 0 0 0 5.16-.55A24.36 24.36 0 1 0 251 243.36z\" fill=\"currentColor\"/>",
+	"width": 512,
+	"height": 512
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (data);
+
+
+/***/ }),
+
+/***/ "./node_modules/@iconify-icons/logos/aws.js":
+/*!**************************************************!*\
+  !*** ./node_modules/@iconify-icons/logos/aws.js ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var data = {
+	"body": "<path d=\"M72.392 55.438c0 3.137.34 5.68.933 7.545a45.373 45.373 0 0 0 2.712 6.103c.424.678.593 1.356.593 1.95c0 .847-.508 1.695-1.61 2.543l-5.34 3.56c-.763.509-1.526.763-2.205.763c-.847 0-1.695-.424-2.543-1.187a26.224 26.224 0 0 1-3.051-3.984c-.848-1.44-1.696-3.052-2.628-5.001c-6.612 7.798-14.92 11.698-24.922 11.698c-7.12 0-12.8-2.035-16.954-6.103c-4.153-4.07-6.272-9.495-6.272-16.276c0-7.205 2.543-13.054 7.714-17.462c5.17-4.408 12.037-6.612 20.768-6.612c2.882 0 5.849.254 8.985.678c3.137.424 6.358 1.102 9.749 1.865V29.33c0-6.443-1.357-10.935-3.985-13.563c-2.712-2.628-7.29-3.9-13.817-3.9c-2.967 0-6.018.34-9.155 1.103c-3.136.762-6.188 1.695-9.155 2.882c-1.356.593-2.373.932-2.967 1.102c-.593.17-1.017.254-1.356.254c-1.187 0-1.78-.848-1.78-2.628v-4.154c0-1.356.17-2.373.593-2.966c.424-.594 1.187-1.187 2.374-1.78c2.967-1.526 6.527-2.798 10.68-3.815C33.908.763 38.316.255 42.978.255c10.088 0 17.463 2.288 22.21 6.866c4.662 4.577 7.036 11.528 7.036 20.853v27.464h.17zM37.976 68.323c2.798 0 5.68-.508 8.731-1.526c3.052-1.017 5.765-2.882 8.053-5.425c1.357-1.61 2.374-3.39 2.882-5.425c.509-2.034.848-4.493.848-7.375v-3.56a70.791 70.791 0 0 0-7.799-1.441a63.874 63.874 0 0 0-7.968-.509c-5.68 0-9.833 1.102-12.63 3.391c-2.798 2.289-4.154 5.51-4.154 9.748c0 3.984 1.017 6.951 3.136 8.986c2.035 2.119 5.002 3.136 8.901 3.136zm68.069 9.155c-1.526 0-2.543-.254-3.221-.848c-.678-.508-1.272-1.695-1.78-3.305L81.124 7.799c-.51-1.696-.764-2.798-.764-3.391c0-1.356.678-2.12 2.035-2.12h8.307c1.61 0 2.713.255 3.306.848c.678.509 1.187 1.696 1.695 3.306l14.241 56.117l13.224-56.117c.424-1.695.933-2.797 1.61-3.306c.679-.508 1.866-.847 3.392-.847h6.781c1.61 0 2.713.254 3.39.847c.679.509 1.272 1.696 1.611 3.306l13.394 56.795L168.01 6.442c.508-1.695 1.102-2.797 1.695-3.306c.678-.508 1.78-.847 3.306-.847h7.883c1.357 0 2.12.678 2.12 2.119c0 .424-.085.848-.17 1.356c-.085.509-.254 1.187-.593 2.12l-20.43 65.525c-.508 1.696-1.101 2.798-1.78 3.306c-.678.509-1.78.848-3.22.848h-7.29c-1.611 0-2.713-.254-3.392-.848c-.678-.593-1.271-1.695-1.61-3.39l-13.14-54.676l-13.054 54.59c-.423 1.696-.932 2.798-1.61 3.391c-.678.594-1.865.848-3.39.848h-7.291zm108.927 2.289c-4.408 0-8.816-.509-13.054-1.526c-4.239-1.017-7.544-2.12-9.748-3.39c-1.357-.764-2.29-1.611-2.628-2.374a5.983 5.983 0 0 1-.509-2.374V65.78c0-1.78.678-2.628 1.95-2.628a4.8 4.8 0 0 1 1.526.255c.508.17 1.271.508 2.119.847a46.108 46.108 0 0 0 9.324 2.967a50.907 50.907 0 0 0 10.088 1.017c5.34 0 9.494-.932 12.376-2.797c2.882-1.865 4.408-4.577 4.408-8.053c0-2.373-.763-4.323-2.289-5.934c-1.526-1.61-4.408-3.051-8.561-4.408l-12.292-3.814c-6.188-1.95-10.765-4.832-13.563-8.647c-2.797-3.73-4.238-7.883-4.238-12.291c0-3.56.763-6.697 2.289-9.41c1.525-2.712 3.56-5.085 6.103-6.95c2.543-1.95 5.425-3.391 8.816-4.408c3.39-1.017 6.95-1.441 10.68-1.441c1.865 0 3.815.085 5.68.339c1.95.254 3.73.593 5.51.932c1.695.424 3.306.848 4.832 1.357c1.526.508 2.712 1.017 3.56 1.525c1.187.679 2.034 1.357 2.543 2.12c.509.678.763 1.61.763 2.797v3.984c0 1.78-.678 2.713-1.95 2.713c-.678 0-1.78-.34-3.22-1.018c-4.833-2.204-10.258-3.306-16.276-3.306c-4.832 0-8.647.763-11.275 2.374c-2.627 1.61-3.984 4.069-3.984 7.544c0 2.374.848 4.408 2.543 6.019c1.696 1.61 4.832 3.221 9.325 4.662l12.037 3.815c6.103 1.95 10.511 4.662 13.139 8.137c2.628 3.476 3.9 7.46 3.9 11.868c0 3.645-.764 6.951-2.205 9.833c-1.525 2.882-3.56 5.425-6.188 7.46c-2.628 2.119-5.764 3.645-9.409 4.747c-3.815 1.187-7.799 1.78-12.122 1.78z\" fill=\"#252F3E\"/><path d=\"M230.993 120.964c-27.888 20.599-68.408 31.534-103.247 31.534c-48.827 0-92.821-18.056-126.05-48.064c-2.628-2.373-.255-5.594 2.881-3.73c35.942 20.854 80.276 33.484 126.136 33.484c30.94 0 64.932-6.442 96.212-19.666c4.662-2.12 8.646 3.052 4.068 6.442zm11.614-13.224c-3.56-4.577-23.566-2.204-32.636-1.102c-2.713.34-3.137-2.034-.678-3.814c15.936-11.19 42.13-7.968 45.181-4.239c3.052 3.815-.848 30.008-15.767 42.554c-2.288 1.95-4.492.933-3.475-1.61c3.39-8.393 10.935-27.296 7.375-31.789z\" fill=\"#F90\"/>",
+	"width": 256,
+	"height": 153
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (data);
+
+
+/***/ }),
+
+/***/ "./node_modules/@iconify-icons/logos/linux-tux.js":
+/*!********************************************************!*\
+  !*** ./node_modules/@iconify-icons/logos/linux-tux.js ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var data = {
+	"body": "<defs><linearGradient x1=\"48.548%\" y1=\"115.276%\" x2=\"51.047%\" y2=\"41.364%\" id=\"ssvg-id-linux-tuxb\"><stop stop-color=\"#FFEED7\" offset=\"0%\"/><stop stop-color=\"#BDBFC2\" offset=\"100%\"/></linearGradient><linearGradient x1=\"54.407%\" y1=\"2.404%\" x2=\"46.175%\" y2=\"90.542%\" id=\"ssvg-id-linux-tuxc\"><stop stop-color=\"#FFF\" stop-opacity=\".8\" offset=\"0%\"/><stop stop-color=\"#FFF\" stop-opacity=\"0\" offset=\"100%\"/></linearGradient><linearGradient x1=\"51.86%\" y1=\"88.248%\" x2=\"47.947%\" y2=\"9.748%\" id=\"ssvg-id-linux-tuxd\"><stop stop-color=\"#FFEED7\" offset=\"0%\"/><stop stop-color=\"#BDBFC2\" offset=\"100%\"/></linearGradient><linearGradient x1=\"49.925%\" y1=\"85.49%\" x2=\"49.924%\" y2=\"13.811%\" id=\"ssvg-id-linux-tuxe\"><stop stop-color=\"#FFEED7\" offset=\"0%\"/><stop stop-color=\"#BDBFC2\" offset=\"100%\"/></linearGradient><linearGradient x1=\"53.901%\" y1=\"3.102%\" x2=\"45.956%\" y2=\"93.895%\" id=\"ssvg-id-linux-tuxf\"><stop stop-color=\"#FFF\" stop-opacity=\".65\" offset=\"0%\"/><stop stop-color=\"#FFF\" stop-opacity=\"0\" offset=\"100%\"/></linearGradient><linearGradient x1=\"45.593%\" y1=\"5.475%\" x2=\"54.811%\" y2=\"93.524%\" id=\"ssvg-id-linux-tuxg\"><stop stop-color=\"#FFF\" stop-opacity=\".65\" offset=\"0%\"/><stop stop-color=\"#FFF\" stop-opacity=\"0\" offset=\"100%\"/></linearGradient><linearGradient x1=\"49.984%\" y1=\"89.845%\" x2=\"49.984%\" y2=\"40.632%\" id=\"ssvg-id-linux-tuxh\"><stop stop-color=\"#FFEED7\" offset=\"0%\"/><stop stop-color=\"#BDBFC2\" offset=\"100%\"/></linearGradient><linearGradient x1=\"53.505%\" y1=\"99.975%\" x2=\"42.746%\" y2=\"23.545%\" id=\"ssvg-id-linux-tuxi\"><stop stop-color=\"#FFEED7\" offset=\"0%\"/><stop stop-color=\"#BDBFC2\" offset=\"100%\"/></linearGradient><linearGradient x1=\"49.841%\" y1=\"13.229%\" x2=\"50.241%\" y2=\"94.673%\" id=\"ssvg-id-linux-tuxj\"><stop stop-color=\"#FFF\" stop-opacity=\".8\" offset=\"0%\"/><stop stop-color=\"#FFF\" stop-opacity=\"0\" offset=\"100%\"/></linearGradient><linearGradient x1=\"49.927%\" y1=\"37.327%\" x2=\"50.727%\" y2=\"92.782%\" id=\"ssvg-id-linux-tuxk\"><stop stop-color=\"#FFF\" stop-opacity=\".65\" offset=\"0%\"/><stop stop-color=\"#FFF\" stop-opacity=\"0\" offset=\"100%\"/></linearGradient><linearGradient x1=\"49.876%\" y1=\"2.299%\" x2=\"49.876%\" y2=\"81.204%\" id=\"ssvg-id-linux-tuxl\"><stop stop-color=\"#FFF\" stop-opacity=\".65\" offset=\"0%\"/><stop stop-color=\"#FFF\" stop-opacity=\"0\" offset=\"100%\"/></linearGradient><linearGradient x1=\"49.833%\" y1=\"2.272%\" x2=\"49.824%\" y2=\"71.799%\" id=\"ssvg-id-linux-tuxm\"><stop stop-color=\"#FFF\" stop-opacity=\".65\" offset=\"0%\"/><stop stop-color=\"#FFF\" stop-opacity=\"0\" offset=\"100%\"/></linearGradient><linearGradient x1=\"53.467%\" y1=\"48.921%\" x2=\"38.949%\" y2=\"98.1%\" id=\"ssvg-id-linux-tuxn\"><stop stop-color=\"#FFA63F\" offset=\"0%\"/><stop stop-color=\"#FF0\" offset=\"100%\"/></linearGradient><linearGradient x1=\"52.373%\" y1=\"143.009%\" x2=\"47.579%\" y2=\"-64.622%\" id=\"ssvg-id-linux-tuxo\"><stop stop-color=\"#FFEED7\" offset=\"0%\"/><stop stop-color=\"#BDBFC2\" offset=\"100%\"/></linearGradient><linearGradient x1=\"30.581%\" y1=\"34.024%\" x2=\"65.887%\" y2=\"89.175%\" id=\"ssvg-id-linux-tuxp\"><stop stop-color=\"#FFA63F\" offset=\"0%\"/><stop stop-color=\"#FF0\" offset=\"100%\"/></linearGradient><linearGradient x1=\"59.572%\" y1=\"-17.216%\" x2=\"48.361%\" y2=\"66.118%\" id=\"ssvg-id-linux-tuxq\"><stop stop-color=\"#FFF\" stop-opacity=\".65\" offset=\"0%\"/><stop stop-color=\"#FFF\" stop-opacity=\"0\" offset=\"100%\"/></linearGradient><linearGradient x1=\"47.769%\" y1=\"1.565%\" x2=\"51.373%\" y2=\"104.313%\" id=\"ssvg-id-linux-tuxr\"><stop stop-color=\"#FFF\" stop-opacity=\".65\" offset=\"0%\"/><stop stop-color=\"#FFF\" stop-opacity=\"0\" offset=\"100%\"/></linearGradient><linearGradient x1=\"43.55%\" y1=\"4.533%\" x2=\"57.114%\" y2=\"92.827%\" id=\"ssvg-id-linux-tuxs\"><stop stop-color=\"#FFF\" stop-opacity=\".65\" offset=\"0%\"/><stop stop-color=\"#FFF\" stop-opacity=\"0\" offset=\"100%\"/></linearGradient><linearGradient x1=\"49.733%\" y1=\"17.609%\" x2=\"50.558%\" y2=\"99.385%\" id=\"ssvg-id-linux-tuxt\"><stop stop-color=\"#FFA63F\" offset=\"0%\"/><stop stop-color=\"#FF0\" offset=\"100%\"/></linearGradient><linearGradient x1=\"50.17%\" y1=\"2.89%\" x2=\"49.68%\" y2=\"94.17%\" id=\"ssvg-id-linux-tuxu\"><stop stop-color=\"#FFF\" stop-opacity=\".65\" offset=\"0%\"/><stop stop-color=\"#FFF\" stop-opacity=\"0\" offset=\"100%\"/></linearGradient><filter x=\"-50%\" y=\"-50%\" width=\"200%\" height=\"200%\" filterUnits=\"objectBoundingBox\" id=\"ssvg-id-linux-tuxa\"><feOffset in=\"SourceAlpha\" result=\"shadowOffsetOuter1\"/><feGaussianBlur stdDeviation=\"6.5\" in=\"shadowOffsetOuter1\" result=\"shadowBlurOuter1\"/></filter></defs><g fill=\"none\"><path d=\"M235.125 249.359c0 17.355-52.617 31.497-117.54 31.497S.044 266.806.044 249.359c0-17.356 52.618-31.498 117.54-31.498c64.924 0 117.45 14.142 117.541 31.498z\" fill=\"#000\" fill-opacity=\".2\" filter=\"url(#ssvg-id-linux-tuxa)\" transform=\"translate(10)\"/><path d=\"M63.213 215.474c-11.387-16.346-13.591-69.606 12.947-102.39C89.292 97.383 92.69 86.455 93.7 71.67c.734-16.805-11.846-66.851 35.537-70.616c48.027-3.857 45.364 43.526 45.088 68.596c-.183 21.12 15.52 33.15 26.355 49.68c19.927 30.303 18.274 82.461-3.765 110.745c-27.916 35.354-51.791 20.018-67.678 21.304c-29.752 1.745-30.762 17.54-66.024-35.905z\" fill=\"#000\"/><path d=\"M169.1 122.451c8.265 7.622 29.661 41.69-4.224 62.995c-11.937 7.438 10.653 35.721 21.488 22.039c19.193-24.61 6.98-63.913-4.591-77.963c-7.714-9.917-19.651-13.774-12.672-7.07z\" fill=\"url(#ssvg-id-linux-tuxb)\" transform=\"translate(10)\"/><path d=\"M176.805 117.86c13.59 11.02 38.292 49.587 2.204 74.748c-11.846 7.806 10.468 32.508 23.049 19.927c43.618-43.894-1.102-94.308-16.53-111.664c-13.774-15.151-25.987 3.49-8.723 16.989h0z\" stroke=\"#000\" stroke-width=\".977\" fill=\"#000\"/><path d=\"M147.245 25.02c-.459 12.581-14.325 23.51-30.946 24.52c-16.621 1.01-29.66-8.54-29.202-21.121c.46-12.581 14.326-23.509 30.947-24.519c16.62-.918 29.66 8.54 29.201 21.12z\" fill=\"url(#ssvg-id-linux-tuxc)\" transform=\"translate(10)\"/><path d=\"M107.483 54.957c.46 8.173-3.397 15.06-8.723 15.335c-5.326.276-10.01-6.06-10.469-14.233c-.459-8.173 3.398-15.06 8.724-15.335c5.326-.276 10.01 6.06 10.468 14.233z\" fill=\"url(#ssvg-id-linux-tuxd)\" transform=\"translate(10)\"/><path d=\"M117.125 55.6c.184 9.458 6.337 16.988 13.683 16.805c7.346-.184 13.131-7.99 12.948-17.54c-.184-9.458-6.336-16.988-13.683-16.804c-7.346.183-13.223 8.08-12.948 17.539z\" fill=\"url(#ssvg-id-linux-tuxe)\" transform=\"translate(10)\"/><path d=\"M133.186 57.712c-.092 5.234 2.48 9.458 5.877 9.458c3.306 0 6.153-4.224 6.245-9.366c.091-5.234-2.48-9.459-5.878-9.459c-3.397 0-6.152 4.225-6.244 9.367z\" fill=\"#000\"/><path d=\"M111.974 57.804c.459 4.316-1.194 7.989-3.582 8.356c-2.387.276-4.683-2.938-5.142-7.254c-.46-4.316 1.194-7.99 3.581-8.357c2.388-.275 4.684 2.939 5.143 7.255z\" fill=\"#000\"/><path d=\"M124.564 54.773c-.276 2.939 1.102 5.326 3.03 5.51c1.928.184 3.765-2.112 4.04-4.959c.276-2.938-1.102-5.326-3.03-5.51c-1.928-.183-3.765 2.113-4.04 4.96z\" fill=\"url(#ssvg-id-linux-tuxf)\" transform=\"translate(10)\"/><path d=\"M99.953 55.508c.276 2.388-.734 4.5-2.203 4.683c-1.47.184-2.847-1.653-3.123-4.132c-.275-2.388.735-4.5 2.204-4.683c1.47-.184 2.847 1.744 3.122 4.132z\" fill=\"url(#ssvg-id-linux-tuxg)\" transform=\"translate(10)\"/><path d=\"M71.027 145.684c6.52-14.785 20.386-40.772 20.662-60.883c0-15.978 47.843-19.835 51.7-3.856c3.856 15.978 13.59 39.853 19.834 51.424c6.245 11.478 24.335 48.118 5.051 80.074c-17.356 28.284-69.973 50.69-98.073-3.856c-9.55-18.917-7.806-42.333.826-62.903z\" fill=\"url(#ssvg-id-linux-tuxh)\" transform=\"translate(10)\"/><path d=\"M65.15 134.664c-5.601 10.56-17.172 38.293 11.112 53.445c30.395 16.162 30.303 49.312-6.245 33.517c-33.425-14.233-18.641-71.902-9.274-85.676c6.06-9.642 15.243-21.488 4.407-1.286z\" fill=\"url(#ssvg-id-linux-tuxi)\" transform=\"translate(10)\"/><path d=\"M79.925 122.727c-8.907 14.509-30.211 48.669-1.652 66.484c38.384 23.6 27.548 47.108-7.53 25.895c-49.404-29.568-5.97-89.257 13.774-112.03c22.59-25.529 4.316 4.683-4.592 19.65h0z\" stroke=\"#000\" stroke-width=\"1.25\" fill=\"#000\"/><path d=\"M156.428 151.285c0 16.162-15.519 37.1-42.15 36.916c-27.456.183-39.118-20.754-39.118-36.916c0-16.161 18.182-29.293 40.588-29.293c22.498.092 40.68 13.132 40.68 29.293z\" fill=\"url(#ssvg-id-linux-tuxj)\" transform=\"translate(10)\"/><path d=\"M141.92 100.504c-.276 16.713-11.204 20.662-24.978 20.662c-13.775 0-23.784-2.48-24.978-20.662c0-11.387 11.203-17.998 24.978-17.998c13.774-.092 24.977 6.52 24.977 17.998z\" fill=\"url(#ssvg-id-linux-tuxk)\" transform=\"translate(10)\"/><path d=\"M58.63 126.216c9-13.682 28.008-34.711 3.582 2.939c-19.835 31.038-7.346 50.965-.918 56.474c18.549 16.53 17.814 27.64 3.214 18.917c-31.314-18.641-24.794-50.047-5.878-78.33z\" fill=\"url(#ssvg-id-linux-tuxl)\" transform=\"translate(10)\"/><path d=\"M188.936 131.818c-7.806-16.07-32.6-56.842 1.193-9.459c30.763 42.884 9.183 72.729 5.326 75.667c-3.856 2.939-16.804 8.908-13.04-1.469c3.858-10.377 22.958-30.028 6.52-64.74z\" fill=\"url(#ssvg-id-linux-tuxm)\" transform=\"translate(10)\"/><path d=\"M51.835 258.542c-20.57-10.928-50.414 2.112-39.578-27.457c2.204-6.704-3.214-16.805.275-23.325c4.133-7.989 13.04-6.244 18.366-11.57c5.234-5.51 8.54-15.06 18.366-13.59c9.734 1.468 16.254 13.406 23.049 28.099c5.05 10.468 22.865 25.253 21.672 37.007c-1.47 17.998-21.948 21.396-42.15 10.836h0z\" stroke=\"#E68C3F\" stroke-width=\"6.25\" fill=\"url(#ssvg-id-linux-tuxn)\" transform=\"translate(10)\"/><path d=\"M201.608 189.119c-3.122 5.877-16.162 15.335-24.886 12.856c-8.815-2.388-12.856-15.795-11.111-25.988c1.653-11.386 11.111-12.03 23.05-6.336c12.855 6.336 16.712 11.662 12.947 19.468z\" fill=\"url(#ssvg-id-linux-tuxo)\" transform=\"translate(10)\"/><path d=\"M194.445 253.49c15.06-18.273 48.578-14.508 25.988-39.577c-4.775-5.418-3.306-16.989-9.183-21.947c-6.887-6.061-14.509-1.102-21.488-4.224c-6.979-3.398-14.325-9.918-22.865-5.327c-8.54 4.684-9.459 16.805-10.285 32.783c-.735 11.479-11.203 30.671-5.602 41.231c8.081 16.346 29.11 14.142 43.435-2.938h0z\" stroke=\"#E68C3F\" stroke-width=\"6.251\" fill=\"url(#ssvg-id-linux-tuxp)\" transform=\"translate(10)\"/><path d=\"M187.925 229.064c23.325-34.435 5.97-34.16.092-36.823c-5.877-2.755-12.03-8.173-18.916-4.408c-6.888 3.857-7.255 13.775-7.439 26.814c-.275 9.367-8.08 25.07-3.397 33.793c5.693 10.193 19.467-4.591 29.66-19.376z\" fill=\"url(#ssvg-id-linux-tuxq)\" transform=\"translate(10)\"/><path d=\"M47.06 234.023c-34.895-22.59-18.55-30.303-13.315-33.885c6.336-4.591 6.428-13.407 14.233-12.58c7.806.826 12.397 10.468 17.631 22.406c3.857 8.54 17.264 19.927 16.254 29.753c-1.285 11.57-19.743 3.948-34.803-5.694z\" fill=\"url(#ssvg-id-linux-tuxr)\" transform=\"translate(10)\"/><path d=\"M209.588 188.843c-2.755 4.776-13.958 12.306-21.396 10.285c-7.622-1.928-11.112-12.672-9.55-20.753c1.377-9.183 9.55-9.642 19.834-5.05c10.928 4.958 14.326 9.182 11.112 15.518z\" fill=\"#000\"/><path d=\"M192.058 186.18c-1.745 3.306-9.091 8.54-14.234 7.163c-5.142-1.377-7.713-8.815-6.887-14.417c.735-6.336 6.244-6.704 13.223-3.581c7.53 3.49 9.918 6.428 7.898 10.835z\" fill=\"url(#ssvg-id-linux-tuxs)\" transform=\"translate(10)\"/><path d=\"M97.107 66.344c3.673-3.398 12.58-13.774 29.477-2.939c3.122 2.02 5.693 2.204 11.662 4.775c12.03 4.96 6.336 16.897-6.52 20.937c-5.51 1.745-10.468 8.449-20.386 7.806c-8.54-.46-10.744-6.06-15.978-9.091c-9.275-5.234-10.652-12.305-5.602-16.07c5.051-3.765 6.98-5.143 7.347-5.418h0z\" stroke=\"#E68C3F\" stroke-width=\"3.75\" fill=\"url(#ssvg-id-linux-tuxt)\" transform=\"translate(10)\"/><path d=\"M148.43 75.986c-5.05.275-15.979 11.203-27.457 11.203c-11.479 0-18.366-10.652-20.11-10.652\" stroke=\"#E68C3F\" stroke-width=\"2.5\"/><path d=\"M102.8 65.426c1.837-1.653 7.622-6.153 15.244-1.562c1.653.919 3.306 1.929 5.693 3.306c4.867 2.847 2.48 6.98-3.398 9.55c-2.663 1.102-7.07 3.49-10.376 3.306c-3.673-.367-6.153-2.755-8.54-4.316c-4.5-2.938-4.224-5.418-2.112-7.346c1.56-1.47 3.305-2.847 3.49-2.938z\" fill=\"url(#ssvg-id-linux-tuxu)\" transform=\"translate(10)\"/></g>",
+	"width": 256,
+	"height": 295
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (data);
+
+
+/***/ }),
+
+/***/ "./node_modules/@iconify-icons/logos/nginx.js":
+/*!****************************************************!*\
+  !*** ./node_modules/@iconify-icons/logos/nginx.js ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var data = {
+	"body": "<path d=\"M2.054 218.187c1.32 2.347 3.227 4.108 5.575 5.428l112.962 65.137c4.695 2.787 10.416 2.787 14.964 0l112.963-65.137c4.695-2.64 7.482-7.629 7.482-13.057V80.284c0-5.428-2.787-10.416-7.482-13.056L135.555 2.09c-4.694-2.788-10.416-2.788-14.964 0L7.63 67.228C2.787 69.868 0 74.856 0 80.284v130.42c0 2.642.587 5.136 2.054 7.483\" fill=\"#009639\"/><path d=\"M91.837 195.154a14.463 14.463 0 0 1-14.524 14.524a14.463 14.463 0 0 1-14.523-14.524V95.542c0-7.776 6.895-14.084 16.43-14.084c6.896 0 14.965 2.787 19.806 8.802l4.4 5.282l60.737 72.618V95.835a14.463 14.463 0 0 1 14.524-14.524a14.463 14.463 0 0 1 14.523 14.524v99.613c0 7.775-6.895 14.083-16.43 14.083c-6.896 0-14.965-2.787-19.806-8.802l-65.137-77.754v72.18z\" fill=\"#FFF\"/>",
+	"width": 256,
+	"height": 291
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (data);
+
+
+/***/ }),
+
+/***/ "./node_modules/@iconify/react/dist/icon.esm.js":
+/*!******************************************************!*\
+  !*** ./node_modules/@iconify/react/dist/icon.esm.js ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Icon": () => (/* binding */ Icon),
+/* harmony export */   "InlineIcon": () => (/* binding */ InlineIcon),
+/* harmony export */   "addCollection": () => (/* binding */ addCollection),
+/* harmony export */   "addIcon": () => (/* binding */ addIcon)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+function createCommonjsModule(fn) {
+  var module = { exports: {} };
+	return fn(module, module.exports), module.exports;
+}
+
+var merge_1 = createCommonjsModule(function (module, exports) {
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.merge = void 0;
+/**
+ * Merge two objects
+ *
+ * Replacement for Object.assign() that is not supported by IE, so it cannot be used in production yet.
+ */
+function merge(item1, item2, item3) {
+    var result = Object.create(null);
+    var items = [item1, item2, item3];
+    for (var i = 0; i < 3; i++) {
+        var item = items[i];
+        if (typeof item === 'object' && item) {
+            for (var key in item) {
+                result[key] = item[key];
+            }
+        }
+    }
+    return result;
+}
+exports.merge = merge;
+//# sourceMappingURL=merge.js.map
+});
+
+var customisations = createCommonjsModule(function (module, exports) {
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.fullCustomisations = exports.defaults = void 0;
+
+/**
+ * Default icon customisations values
+ */
+exports.defaults = Object.freeze({
+    // Display mode
+    inline: false,
+    // Dimensions
+    width: null,
+    height: null,
+    // Alignment
+    hAlign: 'center',
+    vAlign: 'middle',
+    slice: false,
+    // Transformations
+    hFlip: false,
+    vFlip: false,
+    rotate: 0,
+});
+/**
+ * Convert IconifyIconCustomisations to FullIconCustomisations
+ */
+function fullCustomisations(item) {
+    return merge_1.merge(exports.defaults, item);
+}
+exports.fullCustomisations = fullCustomisations;
+//# sourceMappingURL=index.js.map
+});
+
+var shorthand = createCommonjsModule(function (module, exports) {
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.alignmentFromString = exports.flipFromString = void 0;
+var separator = /[\s,]+/;
+/**
+ * Apply "flip" string to icon customisations
+ */
+function flipFromString(custom, flip) {
+    flip.split(separator).forEach(function (str) {
+        var value = str.trim();
+        switch (value) {
+            case 'horizontal':
+                custom.hFlip = true;
+                break;
+            case 'vertical':
+                custom.vFlip = true;
+                break;
+        }
+    });
+}
+exports.flipFromString = flipFromString;
+/**
+ * Apply "align" string to icon customisations
+ */
+function alignmentFromString(custom, align) {
+    align.split(separator).forEach(function (str) {
+        var value = str.trim();
+        switch (value) {
+            case 'left':
+            case 'center':
+            case 'right':
+                custom.hAlign = value;
+                break;
+            case 'top':
+            case 'middle':
+            case 'bottom':
+                custom.vAlign = value;
+                break;
+            case 'slice':
+            case 'crop':
+                custom.slice = true;
+                break;
+            case 'meet':
+                custom.slice = false;
+        }
+    });
+}
+exports.alignmentFromString = alignmentFromString;
+//# sourceMappingURL=shorthand.js.map
+});
+
+var rotate = createCommonjsModule(function (module, exports) {
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.rotateFromString = void 0;
+/**
+ * Get rotation value
+ */
+function rotateFromString(value) {
+    var units = value.replace(/^-?[0-9.]*/, '');
+    function cleanup(value) {
+        while (value < 0) {
+            value += 4;
+        }
+        return value % 4;
+    }
+    if (units === '') {
+        var num = parseInt(value);
+        return isNaN(num) ? 0 : cleanup(num);
+    }
+    else if (units !== value) {
+        var split = 0;
+        switch (units) {
+            case '%':
+                // 25% -> 1, 50% -> 2, ...
+                split = 25;
+                break;
+            case 'deg':
+                // 90deg -> 1, 180deg -> 2, ...
+                split = 90;
+        }
+        if (split) {
+            var num$1 = parseFloat(value.slice(0, value.length - units.length));
+            if (isNaN(num$1)) {
+                return 0;
+            }
+            num$1 = num$1 / split;
+            return num$1 % 1 === 0 ? cleanup(num$1) : 0;
+        }
+    }
+    return 0;
+}
+exports.rotateFromString = rotateFromString;
+//# sourceMappingURL=rotate.js.map
+});
+
+var icon = createCommonjsModule(function (module, exports) {
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.fullIcon = exports.iconDefaults = void 0;
+
+/**
+ * Default values for IconifyIcon properties
+ */
+exports.iconDefaults = Object.freeze({
+    body: '',
+    left: 0,
+    top: 0,
+    width: 16,
+    height: 16,
+    rotate: 0,
+    vFlip: false,
+    hFlip: false,
+});
+/**
+ * Create new icon with all properties
+ */
+function fullIcon(icon) {
+    return merge_1.merge(exports.iconDefaults, icon);
+}
+exports.fullIcon = fullIcon;
+//# sourceMappingURL=index.js.map
+});
+
+var calcSize = createCommonjsModule(function (module, exports) {
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.calculateSize = void 0;
+/**
+ * Regular expressions for calculating dimensions
+ */
+var unitsSplit = /(-?[0-9.]*[0-9]+[0-9.]*)/g;
+var unitsTest = /^-?[0-9.]*[0-9]+[0-9.]*$/g;
+/**
+ * Calculate second dimension when only 1 dimension is set
+ *
+ * @param {string|number} size One dimension (such as width)
+ * @param {number} ratio Width/height ratio.
+ *      If size is width, ratio = height/width
+ *      If size is height, ratio = width/height
+ * @param {number} [precision] Floating number precision in result to minimize output. Default = 2
+ * @return {string|number} Another dimension
+ */
+function calculateSize(size, ratio, precision) {
+    if (ratio === 1) {
+        return size;
+    }
+    precision = precision === void 0 ? 100 : precision;
+    if (typeof size === 'number') {
+        return Math.ceil(size * ratio * precision) / precision;
+    }
+    if (typeof size !== 'string') {
+        return size;
+    }
+    // Split code into sets of strings and numbers
+    var oldParts = size.split(unitsSplit);
+    if (oldParts === null || !oldParts.length) {
+        return size;
+    }
+    var newParts = [];
+    var code = oldParts.shift();
+    var isNumber = unitsTest.test(code);
+    // eslint-disable-next-line no-constant-condition
+    while (true) {
+        if (isNumber) {
+            var num = parseFloat(code);
+            if (isNaN(num)) {
+                newParts.push(code);
+            }
+            else {
+                newParts.push(Math.ceil(num * ratio * precision) / precision);
+            }
+        }
+        else {
+            newParts.push(code);
+        }
+        // next
+        code = oldParts.shift();
+        if (code === void 0) {
+            return newParts.join('');
+        }
+        isNumber = !isNumber;
+    }
+}
+exports.calculateSize = calculateSize;
+//# sourceMappingURL=calc-size.js.map
+});
+
+var builder = createCommonjsModule(function (module, exports) {
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.iconToSVG = void 0;
+
+/**
+ * Get preserveAspectRatio value
+ */
+function preserveAspectRatio(props) {
+    var result = '';
+    switch (props.hAlign) {
+        case 'left':
+            result += 'xMin';
+            break;
+        case 'right':
+            result += 'xMax';
+            break;
+        default:
+            result += 'xMid';
+    }
+    switch (props.vAlign) {
+        case 'top':
+            result += 'YMin';
+            break;
+        case 'bottom':
+            result += 'YMax';
+            break;
+        default:
+            result += 'YMid';
+    }
+    result += props.slice ? ' slice' : ' meet';
+    return result;
+}
+/**
+ * Get SVG attributes and content from icon + customisations
+ *
+ * Does not generate style to make it compatible with frameworks that use objects for style, such as React.
+ * Instead, it generates verticalAlign value that should be added to style.
+ *
+ * Customisations should be normalised by platform specific parser.
+ * Result should be converted to <svg> by platform specific parser.
+ * Use replaceIDs to generate unique IDs for body.
+ */
+function iconToSVG(icon, customisations) {
+    // viewBox
+    var box = {
+        left: icon.left,
+        top: icon.top,
+        width: icon.width,
+        height: icon.height,
+    };
+    // Apply transformations
+    var transformations = [];
+    var hFlip = customisations.hFlip !== icon.hFlip;
+    var vFlip = customisations.vFlip !== icon.vFlip;
+    var rotation = customisations.rotate + icon.rotate;
+    if (hFlip) {
+        if (vFlip) {
+            rotation += 2;
+        }
+        else {
+            // Horizontal flip
+            transformations.push('translate(' +
+                (box.width + box.left) +
+                ' ' +
+                (0 - box.top) +
+                ')');
+            transformations.push('scale(-1 1)');
+            box.top = box.left = 0;
+        }
+    }
+    else if (vFlip) {
+        // Vertical flip
+        transformations.push('translate(' + (0 - box.left) + ' ' + (box.height + box.top) + ')');
+        transformations.push('scale(1 -1)');
+        box.top = box.left = 0;
+    }
+    var tempValue;
+    rotation = rotation % 4;
+    switch (rotation) {
+        case 1:
+            // 90deg
+            tempValue = box.height / 2 + box.top;
+            transformations.unshift('rotate(90 ' + tempValue + ' ' + tempValue + ')');
+            break;
+        case 2:
+            // 180deg
+            transformations.unshift('rotate(180 ' +
+                (box.width / 2 + box.left) +
+                ' ' +
+                (box.height / 2 + box.top) +
+                ')');
+            break;
+        case 3:
+            // 270deg
+            tempValue = box.width / 2 + box.left;
+            transformations.unshift('rotate(-90 ' + tempValue + ' ' + tempValue + ')');
+            break;
+    }
+    if (rotation % 2 === 1) {
+        // Swap width/height and x/y for 90deg or 270deg rotation
+        if (box.left !== 0 || box.top !== 0) {
+            tempValue = box.left;
+            box.left = box.top;
+            box.top = tempValue;
+        }
+        if (box.width !== box.height) {
+            tempValue = box.width;
+            box.width = box.height;
+            box.height = tempValue;
+        }
+    }
+    // Calculate dimensions
+    var width, height;
+    if (customisations.width === null && customisations.height === null) {
+        // Set height to '1em', calculate width
+        height = '1em';
+        width = calcSize.calculateSize(height, box.width / box.height);
+    }
+    else if (customisations.width !== null &&
+        customisations.height !== null) {
+        // Values are set
+        width = customisations.width;
+        height = customisations.height;
+    }
+    else if (customisations.height !== null) {
+        // Height is set
+        height = customisations.height;
+        width = calcSize.calculateSize(height, box.width / box.height);
+    }
+    else {
+        // Width is set
+        width = customisations.width;
+        height = calcSize.calculateSize(width, box.height / box.width);
+    }
+    // Check for 'auto'
+    if (width === 'auto') {
+        width = box.width;
+    }
+    if (height === 'auto') {
+        height = box.height;
+    }
+    // Convert to string
+    width = typeof width === 'string' ? width : width + '';
+    height = typeof height === 'string' ? height : height + '';
+    // Generate body
+    var body = icon.body;
+    if (transformations.length) {
+        body =
+            '<g transform="' + transformations.join(' ') + '">' + body + '</g>';
+    }
+    // Result
+    var result = {
+        attributes: {
+            width: width,
+            height: height,
+            preserveAspectRatio: preserveAspectRatio(customisations),
+            viewBox: box.left + ' ' + box.top + ' ' + box.width + ' ' + box.height,
+        },
+        body: body,
+    };
+    if (customisations.inline) {
+        result.inline = true;
+    }
+    return result;
+}
+exports.iconToSVG = iconToSVG;
+//# sourceMappingURL=index.js.map
+});
+
+var ids = createCommonjsModule(function (module, exports) {
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.replaceIDs = void 0;
+/**
+ * Regular expression for finding ids
+ */
+var regex = /\sid="(\S+)"/g;
+/**
+ * New random-ish prefix for ids
+ */
+var randomPrefix = 'IconifyId-' +
+    Date.now().toString(16) +
+    '-' +
+    ((Math.random() * 0x1000000) | 0).toString(16) +
+    '-';
+/**
+ * Counter for ids, increasing with every replacement
+ */
+var counter = 0;
+/**
+ * Replace multiple occurance of same string
+ */
+function strReplace(search, replace, subject) {
+    var pos = 0;
+    while ((pos = subject.indexOf(search, pos)) !== -1) {
+        subject =
+            subject.slice(0, pos) +
+                replace +
+                subject.slice(pos + search.length);
+        pos += replace.length;
+    }
+    return subject;
+}
+/**
+ * Replace IDs in SVG output with unique IDs
+ * Fast replacement without parsing XML, assuming commonly used patterns and clean XML (icon should have been cleaned up with Iconify Tools or SVGO).
+ */
+function replaceIDs(body, prefix) {
+    if ( prefix === void 0 ) prefix = randomPrefix;
+
+    // Find all IDs
+    var ids = [];
+    var match;
+    while ((match = regex.exec(body))) {
+        ids.push(match[1]);
+    }
+    if (!ids.length) {
+        return body;
+    }
+    // Replace with unique ids
+    ids.forEach(function (id) {
+        var newID = typeof prefix === 'function' ? prefix() : prefix + counter++;
+        body = strReplace('="' + id + '"', '="' + newID + '"', body);
+        body = strReplace('="#' + id + '"', '="#' + newID + '"', body);
+        body = strReplace('(#' + id + ')', '(#' + newID + ')', body);
+    });
+    return body;
+}
+exports.replaceIDs = replaceIDs;
+//# sourceMappingURL=ids.js.map
+});
+
+var merge = createCommonjsModule(function (module, exports) {
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.mergeIcons = void 0;
+
+/**
+ * Icon keys
+ */
+var iconKeys = Object.keys(icon.iconDefaults);
+/**
+ * Merge two icons
+ *
+ * icon2 overrides icon1
+ */
+function mergeIcons(icon1, icon2) {
+    var icon = Object.create(null);
+    iconKeys.forEach(function (key) {
+        if (icon1[key] === void 0) {
+            if (icon2[key] !== void 0) {
+                icon[key] = icon2[key];
+            }
+            return;
+        }
+        if (icon2[key] === void 0) {
+            icon[key] = icon1[key];
+            return;
+        }
+        switch (key) {
+            case 'rotate':
+                icon[key] =
+                    (icon1[key] + icon2[key]) % 4;
+                return;
+            case 'hFlip':
+            case 'vFlip':
+                icon[key] = icon1[key] !== icon2[key];
+                return;
+            default:
+                icon[key] = icon2[key];
+        }
+    });
+    return icon;
+}
+exports.mergeIcons = mergeIcons;
+//# sourceMappingURL=merge.js.map
+});
+
+var iconSet = createCommonjsModule(function (module, exports) {
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.parseIconSet = void 0;
+
+
+
+/**
+ * Get list of defaults keys
+ */
+var defaultsKeys = Object.keys(icon.iconDefaults);
+/**
+ * Resolve alias
+ */
+function resolveAlias(alias, icons, aliases, level) {
+    if ( level === void 0 ) level = 0;
+
+    var parent = alias.parent;
+    if (icons[parent] !== void 0) {
+        return merge.mergeIcons(icons[parent], alias);
+    }
+    if (aliases[parent] !== void 0) {
+        if (level > 2) {
+            // icon + alias + alias + alias = too much nesting, possibly infinite
+            return null;
+        }
+        var icon = resolveAlias(aliases[parent], icons, aliases, level + 1);
+        if (icon) {
+            return merge.mergeIcons(icon, alias);
+        }
+    }
+    return null;
+}
+/**
+ * Extract icons from an icon set
+ */
+function parseIconSet(data, callback, list) {
+    if ( list === void 0 ) list = 'none';
+
+    var added = [];
+    // Must be an object
+    if (typeof data !== 'object') {
+        return list === 'none' ? false : added;
+    }
+    // Check for missing icons list returned by API
+    if (data.not_found instanceof Array) {
+        data.not_found.forEach(function (name) {
+            callback(name, null);
+            if (list === 'all') {
+                added.push(name);
+            }
+        });
+    }
+    // Must have 'icons' object
+    if (typeof data.icons !== 'object') {
+        return list === 'none' ? false : added;
+    }
+    // Get default values
+    var defaults = Object.create(null);
+    defaultsKeys.forEach(function (key) {
+        if (data[key] !== void 0 && typeof data[key] !== 'object') {
+            defaults[key] = data[key];
+        }
+    });
+    // Get icons
+    var icons = data.icons;
+    Object.keys(icons).forEach(function (name) {
+        var icon$1 = icons[name];
+        if (typeof icon$1.body !== 'string') {
+            return;
+        }
+        // Freeze icon to make sure it will not be modified
+        callback(name, Object.freeze(merge_1.merge(icon.iconDefaults, defaults, icon$1)));
+        added.push(name);
+    });
+    // Get aliases
+    if (typeof data.aliases === 'object') {
+        var aliases = data.aliases;
+        Object.keys(aliases).forEach(function (name) {
+            var icon$1 = resolveAlias(aliases[name], icons, aliases, 1);
+            if (icon$1) {
+                // Freeze icon to make sure it will not be modified
+                callback(name, Object.freeze(merge_1.merge(icon.iconDefaults, defaults, icon$1)));
+                added.push(name);
+            }
+        });
+    }
+    return list === 'none' ? added.length > 0 : added;
+}
+exports.parseIconSet = parseIconSet;
+//# sourceMappingURL=icon-set.js.map
+});
+
+/**
+ * Default SVG attributes
+ */
+var svgDefaults = {
+    'xmlns': 'http://www.w3.org/2000/svg',
+    'xmlnsXlink': 'http://www.w3.org/1999/xlink',
+    'aria-hidden': true,
+    'role': 'img',
+    'style': {}, // Include style if it isn't set to add verticalAlign later
+};
+/**
+ * Default values for customisations for inline icon
+ */
+var inlineDefaults = merge_1.merge(customisations.defaults, {
+    inline: true,
+});
+/**
+ * Storage for icons referred by name
+ */
+var storage = Object.create(null);
+/**
+ * Icon component
+ *
+ * @param props Component properties
+ * @param defaults Default values for customisations (defaults or inlineDefaults)
+ */
+var component = function (props, defaults, ref) {
+    // Split properties
+    var icon$1 = typeof props.icon === 'string'
+        ? storage[props.icon]
+        : typeof props.icon === 'object'
+            ? icon.fullIcon(props.icon)
+            : null;
+    // Validate icon object
+    if (typeof icon$1 !== 'object' ||
+        icon$1 === null ||
+        typeof icon$1.body !== 'string') {
+        return props.children
+            ? props.children
+            : react__WEBPACK_IMPORTED_MODULE_0__.createElement('span', {});
+    }
+    var customisations = merge_1.merge(defaults, props);
+    var componentProps = merge_1.merge(svgDefaults);
+    // Add reference
+    componentProps.ref = ref;
+    // Create style if missing
+    var style = typeof props.style === 'object' ? props.style : {};
+    componentProps.style = style;
+    // Get element properties
+    for (var key in props) {
+        var value = props[key];
+        switch (key) {
+            // Properties to ignore
+            case 'icon':
+            case 'style':
+                break;
+            // Flip as string: 'horizontal,vertical'
+            case 'flip':
+                if (typeof value === 'string') {
+                    shorthand.flipFromString(customisations, value);
+                }
+                break;
+            // Alignment as string
+            case 'align':
+                if (typeof value === 'string') {
+                    shorthand.alignmentFromString(customisations, value);
+                }
+                break;
+            // Color: copy to style
+            case 'color':
+                style.color = value;
+                break;
+            // Rotation as string
+            case 'rotate':
+                if (typeof value === 'string') {
+                    customisations[key] = rotate.rotateFromString(value);
+                }
+                else if (typeof value === 'number') {
+                    componentProps[key] = value;
+                }
+                break;
+            // Remove aria-hidden
+            case 'ariaHidden':
+            case 'aria-hidden':
+                if (value !== true && value !== 'true') {
+                    delete componentProps['aria-hidden'];
+                }
+                break;
+            // Copy missing property if it does not exist in customisations
+            default:
+                if (defaults[key] === void 0) {
+                    componentProps[key] = value;
+                }
+        }
+    }
+    // Generate icon
+    var item = builder.iconToSVG(icon$1, customisations);
+    // Counter for ids based on "id" property to render icons consistently on server and client
+    var localCounter = 0;
+    var id = props.id;
+    // Add icon stuff
+    componentProps.dangerouslySetInnerHTML = {
+        __html: ids.replaceIDs(item.body, id ? function () { return id + '-' + localCounter++; } : 'iconify-react-'),
+    };
+    for (var key$1 in item.attributes) {
+        componentProps[key$1] = item.attributes[key$1];
+    }
+    if (item.inline && style.verticalAlign === void 0) {
+        style.verticalAlign = '-0.125em';
+    }
+    return react__WEBPACK_IMPORTED_MODULE_0__.createElement('svg', componentProps);
+};
+/**
+ * Block icon
+ *
+ * @param props - Component properties
+ */
+var Icon = react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(function (props, ref) { return component(props, customisations.defaults, ref); });
+/**
+ * Inline icon (has negative verticalAlign that makes it behave like icon font)
+ *
+ * @param props - Component properties
+ */
+var InlineIcon = react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(function (props, ref) { return component(props, inlineDefaults, ref); });
+/**
+ * Add icon to storage, allowing to call it by name
+ *
+ * @param name
+ * @param data
+ */
+function addIcon(name, data) {
+    storage[name] = icon.fullIcon(data);
+}
+/**
+ * Add collection to storage, allowing to call icons by name
+ *
+ * @param data Icon set
+ * @param prefix Optional prefix to add to icon names, true if prefix from icon set should be used.
+ */
+function addCollection(data, prefix) {
+    var iconPrefix = typeof prefix === 'string'
+        ? prefix
+        : prefix !== false && typeof data.prefix === 'string'
+            ? data.prefix + ':'
+            : '';
+    iconSet.parseIconSet(data, function (name, icon) {
+        if (icon !== null) {
+            storage[iconPrefix + name] = icon;
+        }
+    });
+}
+
+
+
+
+/***/ }),
+
 /***/ "./src/component/description.js":
 /*!**************************************!*\
   !*** ./src/component/description.js ***!
@@ -52,54 +967,63 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _iconify_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @iconify/react */ "./node_modules/@iconify/react/dist/icon.esm.js");
+/* harmony import */ var _iconify_icons_ion_logo_electron__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @iconify-icons/ion/logo-electron */ "./node_modules/@iconify-icons/ion/logo-electron.js");
+ //icos
+//import { Icon } from "@iconify/react";
+//import logoElectron from "@iconify-icons/ion/logo-electron";
+// npm install --save-dev @iconify/react @iconify-icons/ion
+
+
 
 
 var Description = function Description() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "shadow container  p-5"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "container py-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("header", {
+    className: "pb-3 mb-4 border-bottom"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "/",
+    className: "d-flex align-items-center text-dark text-decoration-none"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_1__.Icon, {
+    icon: _iconify_icons_ion_logo_electron__WEBPACK_IMPORTED_MODULE_2__.default,
+    width: "50",
+    height: "50"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "fs-4"
+  }, "Education & certification"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "p-5 mb-4 bg-light rounded-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container-fluid py-5"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     className: "display-5 fw-bold"
-  }, "Education & certification"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+  }, "Education"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "col-md-8 fs-4"
-  }, "University of Pennsylvania Degree Name \"Computer Science Essentials for Software\" graduation 2020 \u2013 2022"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+  }, "University of Pennsylvania Degree Name Computer Science Essentials for Software graduation 2020 \u2013 2022"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "col-md-8 fs-4"
-  }, "Universidad Central \"Marta Abreu\"\u200B de Las Villas Degree 2009 \u2013 2014")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row"
+  }, "Universidad Central Marta Abreu\u200B de Las Villas Degree 2009 \u2013 2014"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "row align-items-md-stretch"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col-sm-6"
+    className: "col-md-6"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card-body"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h5", {
-    className: "card-title"
-  }, "Programming for the Web with JavaScript"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "card-text"
-  }, "a course of study offered by PennX, an online learning initiative of the University of Pennsylvania."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Valid Certificate ID e9e6073259374dda9d8fb0c0298bc3e8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    className: "h-100 p-5 text-white bg-dark rounded-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "Programming for the Web with JavaScript"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Valid Certificate ID e9e6073259374dda9d8fb0c0298bc3e8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "https://courses.edx.org/certificates/e9e6073259374dda9d8fb0c0298bc3e8",
     className: "btn btn-primary",
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "Go to validation")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col-sm-6"
+  }, "Go to validation"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col-md-6"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card-body"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h5", {
-    className: "card-title"
-  }, "Algorithms and Data Structures in C#"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "card-text"
-  }, "a course of study offered by Microsoft, an online learning initiative of Microsoft Corporation."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Valid Certificate ID cff61b6bf4a84293beb011510f762d3f"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    className: "h-100 p-5 bg-light border rounded-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, " Algorithms and Data Structures in C#"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Valid Certificate ID cff61b6bf4a84293beb011510f762d3f"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "https://courses.edx.org/certificates/cff61b6bf4a84293beb011510f762d3f",
     className: "btn btn-primary",
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "Go to validation"))))))));
+  }, "Go to validation")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", {
+    className: "pt-3 mt-4 text-muted border-top"
+  }, "\xA9 2021"));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Description);
@@ -119,59 +1043,74 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _css_experience_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/experience.css */ "./src/component/css/experience.css");
-/* harmony import */ var _img_server_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../img/server.png */ "./src/img/server.png");
+/* harmony import */ var _iconify_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @iconify/react */ "./node_modules/@iconify/react/dist/icon.esm.js");
+/* harmony import */ var _iconify_icons_logos_nginx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @iconify-icons/logos/nginx */ "./node_modules/@iconify-icons/logos/nginx.js");
+/* harmony import */ var _iconify_icons_logos_linux_tux__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @iconify-icons/logos/linux-tux */ "./node_modules/@iconify-icons/logos/linux-tux.js");
+/* harmony import */ var _iconify_icons_logos_aws__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @iconify-icons/logos/aws */ "./node_modules/@iconify-icons/logos/aws.js");
+/* harmony import */ var _iconify_icons_flat_color_icons_data_encryption__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @iconify-icons/flat-color-icons/data-encryption */ "./node_modules/@iconify-icons/flat-color-icons/data-encryption.js");
+/* harmony import */ var _iconify_icons_bi_server__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @iconify-icons/bi/server */ "./node_modules/@iconify-icons/bi/server.js");
+
+ //icon
 
 
 
 
+
+
+ //
 
 var Experience = function Experience() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "position-relative container "
+    className: "container mt-5 px-3 py-4",
+    id: "featured-3 bg-secondary"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+    className: "pb-2 border-bottom p-3 mb-2 bg-info text-dark"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_2__.Icon, {
+    icon: _iconify_icons_bi_server__WEBPACK_IMPORTED_MODULE_7__.default,
+    width: "25",
+    height: "25"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "text-segundary"
+  }, "<Server />"), " configuration for this example!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "row g-4 py-5 row-cols-1 row-cols-lg-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "shadow overflow-hidden p-5 mt-5 text-center bg-light"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col-md-10  mx-auto my-5 palante"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
-    className: "mt-3 display-6 fw-bold text-dark"
-  }, "The server configuration for this example!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    "class": "p-3 mt-3 row align-items-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    "class": "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I also have experience in Heroku, BlueHost, GoDaddy, Ionos."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    className: "mx-500",
-    src: "https://www.nginx.com/wp-content/uploads/2021/05/NGINX-Service-Mesh-vertical-white-type.svg"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    "class": "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I also have experience in Heroku, BlueHost, GoDaddy, Ionos."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: "https://api.iconify.design/logos-aws-ec2.svg"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    "class": "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I also have experience in Heroku, BlueHost, GoDaddy, Ionos."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: "https://www.nginx.com/wp-content/uploads/2021/05/NGINX-Service-Mesh-vertical-white-type.svg"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    "class": "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I also have experience in Heroku, BlueHost, GoDaddy, Ionos."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: "https://www.nginx.com/wp-content/uploads/2021/05/NGINX-Service-Mesh-vertical-white-type.svg"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    "class": "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I also have experience in Heroku, BlueHost, GoDaddy, Ionos."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: "https://www.nginx.com/wp-content/uploads/2021/05/NGINX-Service-Mesh-vertical-white-type.svg"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    "class": "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I also have experience in Heroku, BlueHost, GoDaddy, Ionos."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: "https://www.nginx.com/wp-content/uploads/2021/05/NGINX-Service-Mesh-vertical-white-type.svg"
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
-    className: "display-4 fw-normal palante"
-  }, "Punny headline"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "lead fw-normal"
-  }, "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    className: "btn btn-outline-secondary",
-    href: "#"
-  }, "Coming soon"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    className: "product-device d-none d-md-block",
-    src: _img_server_png__WEBPACK_IMPORTED_MODULE_2__.default
-  }));
+    className: "feature col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_2__.Icon, {
+    className: "bi rounded mx-auto d-block",
+    icon: _iconify_icons_logos_aws__WEBPACK_IMPORTED_MODULE_5__.default,
+    width: "50",
+    height: "50"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+    className: "text-center"
+  }, "AWS cloud"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "The AWS cloud computing platform provides the flexibility to launch your application regardless of your use case or industry."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "All items were purchased from AWS, dominion and instance of EC2 (ubntu)"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "feature col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_2__.Icon, {
+    className: "bi rounded mx-auto d-block",
+    icon: _iconify_icons_logos_nginx__WEBPACK_IMPORTED_MODULE_3__.default,
+    width: "50",
+    height: "50"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+    className: "text-center"
+  }, "Reverse Proxy Server"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "NGINX handles the traffic from the domain to the port where the nodeJS application runs, it also encrypts the data using", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_2__.Icon, {
+    icon: _iconify_icons_flat_color_icons_data_encryption__WEBPACK_IMPORTED_MODULE_6__.default,
+    width: "25",
+    height: "25"
+  }), "Let s Encrypt!"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "feature col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_2__.Icon, {
+    className: "bi rounded mx-auto d-block",
+    icon: _iconify_icons_logos_linux_tux__WEBPACK_IMPORTED_MODULE_4__.default,
+    width: "50",
+    height: "50"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+    className: "mt-3 text-center"
+  }, "Featured title 3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Ubuntu Server (20.04 lts) handle services like PM2, Github, NodeJS, MySQL")))));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Experience);
@@ -346,20 +1285,14 @@ var dataTest = {
 };
 
 var Skill = function Skill() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "bg-dark text-secondary p-1 mt-5 text-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("article", {
-    className: "blog-post"
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "bg-dark text-secondary p-1 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container p-1"
+    className: "container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container p-1"
+    className: "row mb-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row align-items-center mt-5"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "p-1"
+    className: "col-md-4 themed-grid-col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("table", {
     className: "table text-light bg-dark  table-borderless"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("thead", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
@@ -368,10 +1301,8 @@ var Skill = function Skill() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", {
       key: Math.random() * 1000000
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, elemnt));
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tfoot", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "****")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "p-1"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tfoot", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "****"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col-md-4 themed-grid-col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("table", {
     className: "table text-light bg-dark  table-borderless"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("thead", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
@@ -380,10 +1311,8 @@ var Skill = function Skill() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", {
       key: Math.random() * 1000000
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, elemnt));
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tfoot", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "****")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "p-1"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tfoot", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "****"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col-md-4 themed-grid-col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("table", {
     className: "table text-light bg-dark  table-borderless"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("thead", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
@@ -392,7 +1321,7 @@ var Skill = function Skill() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", {
       key: Math.random() * 1000000
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, elemnt));
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tfoot", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "****")))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, "JALO"))));
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tfoot", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "****")))))))));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Skill);
@@ -9467,21 +10396,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "img/f30b93c4aad101752d3a9e32d8a255b6.png");
-
-/***/ }),
-
-/***/ "./src/img/server.png":
-/*!****************************!*\
-  !*** ./src/img/server.png ***!
-  \****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "img/add42123085ee01f9bca3c4ce6cf58e7.png");
 
 /***/ }),
 
@@ -40264,7 +41178,7 @@ var App = /*#__PURE__*/function (_React$Component) {
   _createClass(App, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_resume__WEBPACK_IMPORTED_MODULE_2__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_experience__WEBPACK_IMPORTED_MODULE_3__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_relate__WEBPACK_IMPORTED_MODULE_6__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_description__WEBPACK_IMPORTED_MODULE_5__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_skill__WEBPACK_IMPORTED_MODULE_4__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_formEmail__WEBPACK_IMPORTED_MODULE_7__.default, null))));
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_resume__WEBPACK_IMPORTED_MODULE_2__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_relate__WEBPACK_IMPORTED_MODULE_6__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_experience__WEBPACK_IMPORTED_MODULE_3__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_description__WEBPACK_IMPORTED_MODULE_5__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_skill__WEBPACK_IMPORTED_MODULE_4__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_formEmail__WEBPACK_IMPORTED_MODULE_7__.default, null))));
     }
   }]);
 

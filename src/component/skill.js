@@ -8,97 +8,88 @@ const dataTest = {
 
 const Skill = () => {
   return (
-    <div className="bg-dark text-secondary p-1 mt-5 text-center">
-      <article className="blog-post">
-        <div className="container p-1">
-          <div className="container p-1">
-            <div className="row align-items-center mt-5">
-              <div className="col">
-                <div className="p-1">
-                  <table className="table text-light bg-dark  table-borderless">
-                    <thead>
-                      <tr>
-                        <th>
-                          <h1 className="display-6">Tecnologies</h1>
-                        </th>
+    <div>
+      <div className="bg-dark text-secondary p-1 text-center">
+        <div className="container">
+          <div className="row mb-3">
+            <div className="col-md-4 themed-grid-col">
+              <table className="table text-light bg-dark  table-borderless">
+                <thead>
+                  <tr>
+                    <th>
+                      <h1 className="display-6">Tecnologies</h1>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {dataTest.tecnologies.map((elemnt) => {
+                    return (
+                      <tr key={Math.random() * 1000000}>
+                        <td>{elemnt}</td>
                       </tr>
-                    </thead>
-                    <tbody>
-                      {dataTest.tecnologies.map((elemnt) => {
-                        return (
-                          <tr key={Math.random() * 1000000}>
-                            <td>{elemnt}</td>
-                          </tr>
-                        );
-                      })}
-                    </tbody>
-                    <tfoot>
-                      <tr>
-                        <td>****</td>
+                    );
+                  })}
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td>****</td>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+            <div className="col-md-4 themed-grid-col">
+              <table className="table text-light bg-dark  table-borderless">
+                <thead>
+                  <tr>
+                    <th>
+                      <h1 className="display-6">Lenguajes</h1>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {dataTest.languages.map((elemnt) => {
+                    return (
+                      <tr key={Math.random() * 1000000}>
+                        <td>{elemnt}</td>
                       </tr>
-                    </tfoot>
-                  </table>
-                </div>
-              </div>
-              <div className="col">
-                <div className="p-1">
-                  <table className="table text-light bg-dark  table-borderless">
-                    <thead>
-                      <tr>
-                        <th>
-                          <h1 className="display-6">Lenguajes</h1>
-                        </th>
+                    );
+                  })}
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td>****</td>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+            <div className="col-md-4 themed-grid-col">
+              <table className="table text-light bg-dark  table-borderless">
+                <thead>
+                  <tr>
+                    <th>
+                      <h1 className="display-6">Tools</h1>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {dataTest.tools.map((elemnt) => {
+                    return (
+                      <tr key={Math.random() * 1000000}>
+                        <td>{elemnt}</td>
                       </tr>
-                    </thead>
-                    <tbody>
-                      {dataTest.languages.map((elemnt) => {
-                        return (
-                          <tr key={Math.random() * 1000000}>
-                            <td>{elemnt}</td>
-                          </tr>
-                        );
-                      })}
-                    </tbody>
-                    <tfoot>
-                      <tr>
-                        <td>****</td>
-                      </tr>
-                    </tfoot>
-                  </table>
-                </div>
-              </div>
-              <div className="col">
-                <div className="p-1">
-                  <table className="table text-light bg-dark  table-borderless">
-                    <thead>
-                      <tr>
-                        <th>
-                          <h1 className="display-6">Tools</h1>
-                        </th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {dataTest.tools.map((elemnt) => {
-                        return (
-                          <tr key={Math.random() * 1000000}>
-                            <td>{elemnt}</td>
-                          </tr>
-                        );
-                      })}
-                    </tbody>
-                    <tfoot>
-                      <tr>
-                        <td>****</td>
-                      </tr>
-                    </tfoot>
-                  </table>
-                </div>
-              </div>
+                    );
+                  })}
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td>****</td>
+                  </tr>
+                </tfoot>
+              </table>
             </div>
           </div>
-          <div>JALO</div>
         </div>
-      </article>
+      </div>
     </div>
   );
 };
