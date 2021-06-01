@@ -9,6 +9,15 @@
   z-index: 0;
 }
 
+.bg-deg {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.6783088235294117) 0%,
+    rgba(33, 37, 41, 0.4150035014005602) 100%
+  );
+}
+
 @charset "UTF-8";/*!
  * Bootstrap v5.0.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors

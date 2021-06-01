@@ -21,8 +21,9 @@ class App extends React.Component {
         <div>
           <div>
             <Resume />
-            <Experience />
             <Relate />
+            <Experience />
+
             <Description />
             <Skill />
             <FormEmail />

@@ -40,10 +40,10 @@ __webpack_require__(/*! regenerator-runtime/runtime */ "./node_modules/regenerat
 
 /***/ }),
 
-/***/ "./node_modules/@iconify-icons/flat-color-icons/data-configuration.js":
-/*!****************************************************************************!*\
-  !*** ./node_modules/@iconify-icons/flat-color-icons/data-configuration.js ***!
-  \****************************************************************************/
+/***/ "./node_modules/@iconify-icons/bi/server.js":
+/*!**************************************************!*\
+  !*** ./node_modules/@iconify-icons/bi/server.js ***!
+  \**************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -52,9 +52,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 var data = {
-	"body": "<g fill=\"#D1C4E9\"><path d=\"M38 7H10c-1.1 0-2 .9-2 2v6c0 1.1.9 2 2 2h28c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2z\"/><path d=\"M38 19H10c-1.1 0-2 .9-2 2v6c0 1.1.9 2 2 2h28c1.1 0 2-.9 2-2v-6c0-1.1-.9-2-2-2z\"/><path d=\"M38 31H10c-1.1 0-2 .9-2 2v6c0 1.1.9 2 2 2h28c1.1 0 2-.9 2-2v-6c0-1.1-.9-2-2-2z\"/></g><path fill=\"#607D8B\" d=\"M45.2 38.1c.1-.4.1-.8.1-1.1s0-.8-.1-1.1l2.3-1.7c.2-.2.3-.5.2-.7l-2.3-3.9c-.1-.2-.4-.3-.7-.2l-2.6 1.2c-.6-.5-1.3-.9-2-1.2l-.3-2.9c0-.3-.3-.5-.5-.5h-4.5c-.3 0-.5.2-.5.5l-.3 2.9c-.7.3-1.4.7-2 1.2l-2.6-1.2c-.3-.1-.6 0-.7.2l-2.3 3.9c-.1.2-.1.6.2.7l2.3 1.7c-.1.4-.1.8-.1 1.1s0 .8.1 1.1l-2.3 1.7c-.2.2-.3.5-.2.7l2.3 3.9c.1.2.4.3.7.2l2.6-1.2c.6.5 1.3.9 2 1.2l.3 2.9c0 .3.3.5.5.5h4.5c.3 0 .5-.2.5-.5l.3-2.9c.7-.3 1.4-.7 2-1.2l2.6 1.2c.3.1.6 0 .7-.2l2.3-3.9c.1-.2.1-.6-.2-.7l-2.3-1.7zM37 42.2c-2.9 0-5.2-2.3-5.2-5.2c0-2.9 2.3-5.2 5.2-5.2c2.9 0 5.2 2.3 5.2 5.2c0 2.9-2.3 5.2-5.2 5.2z\"/><path fill=\"#455A64\" d=\"M37 31c-3.3 0-6 2.7-6 6s2.7 6 6 6s6-2.7 6-6s-2.7-6-6-6zm0 9c-1.7 0-3-1.3-3-3s1.3-3 3-3s3 1.3 3 3s-1.3 3-3 3z\"/>",
-	"width": 48,
-	"height": 48
+	"body": "<g fill=\"currentColor\"><path d=\"M1.333 2.667C1.333 1.194 4.318 0 8 0s6.667 1.194 6.667 2.667V4c0 1.473-2.985 2.667-6.667 2.667S1.333 5.473 1.333 4V2.667z\"/><path d=\"M1.333 6.334v3C1.333 10.805 4.318 12 8 12s6.667-1.194 6.667-2.667V6.334a6.51 6.51 0 0 1-1.458.79C11.81 7.684 9.967 8 8 8c-1.966 0-3.809-.317-5.208-.876a6.508 6.508 0 0 1-1.458-.79z\"/><path d=\"M14.667 11.668a6.51 6.51 0 0 1-1.458.789c-1.4.56-3.242.876-5.21.876c-1.966 0-3.809-.316-5.208-.876a6.51 6.51 0 0 1-1.458-.79v1.666C1.333 14.806 4.318 16 8 16s6.667-1.194 6.667-2.667v-1.665z\"/></g>",
+	"width": 16,
+	"height": 16
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (data);
 
@@ -76,6 +76,27 @@ var data = {
 	"body": "<g fill=\"#D1C4E9\"><path d=\"M38 7H10c-1.1 0-2 .9-2 2v6c0 1.1.9 2 2 2h28c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2z\"/><path d=\"M38 19H10c-1.1 0-2 .9-2 2v6c0 1.1.9 2 2 2h25.1c1.3-1.3 4.9-.9 4.9-2v-6c0-1.1-.9-2-2-2z\"/><path d=\"M34.4 31H10c-1.1 0-2 .9-2 2v6c0 1.1.9 2 2 2h28c1.1 0 2-.9 2-2v-2.4c0-3.1-2.5-5.6-5.6-5.6z\"/></g><g fill=\"#FFA000\"><path d=\"M43 46l-2 2h-2l-2-2V35.4h6V40l-1 1l1 1v1l-1 1l1 1z\"/><path d=\"M47.5 28.5c-.3-.9-1-1.6-2-1.8c-1.3-.3-3.3-.7-5.5-.7s-4.2.4-5.5.6c-1 .2-1.7.9-2 1.8c-.2 1-.5 2.2-.5 3.6s.3 2.6.5 3.5c.3.9 1 1.6 2 1.8c1.3.3 3.2.6 5.5.6s4.2-.4 5.5-.6c1-.2 1.7-.9 2-1.8c.3-.9.5-2.1.5-3.5s-.3-2.6-.5-3.5zM42.9 31h-5.7c-.6 0-1.1-.5-1.1-1.1v-1.4c0-.3 1.8-.6 4-.6s4 .3 4 .6v1.4c-.1.6-.6 1.1-1.2 1.1z\"/></g><path fill=\"#D68600\" d=\"M39 37.1h1V48h-1z\"/>",
 	"width": 48,
 	"height": 48
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (data);
+
+
+/***/ }),
+
+/***/ "./node_modules/@iconify-icons/ion/logo-electron.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/@iconify-icons/ion/logo-electron.js ***!
+  \**********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var data = {
+	"body": "<path d=\"M86.76 255a9.89 9.89 0 0 0 4.87-1.29a9.82 9.82 0 0 0 3.65-13.43c-16.46-28.56-17.81-52.12-7.45-70c14.26-24.57 53.61-33.65 105.27-24.29a9.86 9.86 0 0 0 11.45-7.9a9.84 9.84 0 0 0-7.93-11.44c-29.19-5.28-56-5.18-77.39.3c-22.3 5.71-39 17.28-48.45 33.48c-14 24.19-12.7 54.73 7.42 89.62a9.85 9.85 0 0 0 8.56 4.95z\" fill=\"currentColor\"/><path d=\"M361.61 143.73c32.24.42 52.61 9.31 62.79 26.86c14.21 24.48 2.52 62.81-31.27 102.52a9.82 9.82 0 0 0 7.51 16.18a9.88 9.88 0 0 0 7.52-3.46c19.12-22.47 32.35-45.54 38.25-66.71c6.14-22 4.43-42.21-5-58.38c-13.8-23.78-40.13-36.15-79.59-36.67h-.14a9.83 9.83 0 0 0-.12 19.66z\" fill=\"currentColor\"/><path d=\"M326.47 414.89a9.88 9.88 0 0 0-13.5 3.35c-16.41 27.15-36.57 42.1-56.77 42.1c-28.49 0-56-29.31-73.73-78.42a9.87 9.87 0 0 0-12.59-5.92a9.83 9.83 0 0 0-6 12.58c10 27.77 23.47 50.75 39 66.46c16.11 16.34 34.55 25 53.32 25c27.38 0 53.54-18.33 73.65-51.61a9.81 9.81 0 0 0-3.38-13.5z\" fill=\"currentColor\"/><path d=\"M431.7 338.54a32.14 32.14 0 0 0-29.9 44.33c-41.8 19.5-119.8 4.79-191.87-36.62c-32.91-18.9-62.16-41.86-84.6-66.39a9.9 9.9 0 0 0-13.91-.65a9.8 9.8 0 0 0-.65 13.9c23.79 26 54.68 50.28 89.33 70.18c40.28 23.13 82.27 38.63 121.43 44.81a225.54 225.54 0 0 0 35 2.91c23.12 0 43-4.3 58.51-12.79a32.2 32.2 0 1 0 16.7-59.68zm0 44.66a12.6 12.6 0 0 1-7.82-2.72a10 10 0 0 0-2.2-2.21a12.61 12.61 0 1 1 10 4.93z\" fill=\"currentColor\"/><path d=\"M82.09 338.59c.57-21.26 12.41-47 33.68-73.16c23.19-28.45 56.69-56 94.34-77.65c33.25-19.1 65.2-31.9 98.07-38.91a9.83 9.83 0 1 0-4.12-19.22c-34.85 7.43-68.78 21-103.79 41.09C116.09 219.09 59.9 289.88 62.46 343.9a32.32 32.32 0 1 0 19.63-5.31zM80.3 383.2a12.5 12.5 0 1 1 12.59-12.5a12.56 12.56 0 0 1-12.59 12.5z\" fill=\"currentColor\"/><path d=\"M256.2 96.32a32.23 32.23 0 0 0 26.53-13.81c17.89 11.69 34 35 45.81 66.12c13 34.39 19.84 75.38 19.84 118.54c0 37.18-5.19 72.35-15 103.6a9.72 9.72 0 0 0 .66 7.49a9.82 9.82 0 0 0 5.8 4.84a9.89 9.89 0 0 0 12.34-6.44c10.42-33.14 15.93-70.34 15.93-109.49c0-47.17-7.77-91.77-22.47-129c-14.41-36.48-34.13-62.4-57.14-75.16a32.3 32.3 0 1 0-32.3 33.31zm0-44.66a12.5 12.5 0 1 1-12.59 12.5a12.56 12.56 0 0 1 12.59-12.5z\" fill=\"currentColor\"/><path d=\"M251 243.36a24.35 24.35 0 0 0 5.16 48.16a24.68 24.68 0 0 0 5.16-.55A24.36 24.36 0 1 0 251 243.36z\" fill=\"currentColor\"/>",
+	"width": 512,
+	"height": 512
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (data);
 
@@ -946,54 +967,63 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _iconify_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @iconify/react */ "./node_modules/@iconify/react/dist/icon.esm.js");
+/* harmony import */ var _iconify_icons_ion_logo_electron__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @iconify-icons/ion/logo-electron */ "./node_modules/@iconify-icons/ion/logo-electron.js");
+ //icos
+//import { Icon } from "@iconify/react";
+//import logoElectron from "@iconify-icons/ion/logo-electron";
+// npm install --save-dev @iconify/react @iconify-icons/ion
+
+
 
 
 var Description = function Description() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "shadow container  p-5"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "container py-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("header", {
+    className: "pb-3 mb-4 border-bottom"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "/",
+    className: "d-flex align-items-center text-dark text-decoration-none"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_1__.Icon, {
+    icon: _iconify_icons_ion_logo_electron__WEBPACK_IMPORTED_MODULE_2__.default,
+    width: "50",
+    height: "50"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "fs-4"
+  }, "Education & certification"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "p-5 mb-4 bg-light rounded-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container-fluid py-5"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     className: "display-5 fw-bold"
-  }, "Education & certification"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+  }, "Education"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "col-md-8 fs-4"
-  }, "University of Pennsylvania Degree Name \"Computer Science Essentials for Software\" graduation 2020 \u2013 2022"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+  }, "University of Pennsylvania Degree Name Computer Science Essentials for Software graduation 2020 \u2013 2022"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "col-md-8 fs-4"
-  }, "Universidad Central \"Marta Abreu\"\u200B de Las Villas Degree 2009 \u2013 2014")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row"
+  }, "Universidad Central Marta Abreu\u200B de Las Villas Degree 2009 \u2013 2014"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "row align-items-md-stretch"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col-sm-6"
+    className: "col-md-6"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card-body"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h5", {
-    className: "card-title"
-  }, "Programming for the Web with JavaScript"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "card-text"
-  }, "a course of study offered by PennX, an online learning initiative of the University of Pennsylvania."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Valid Certificate ID e9e6073259374dda9d8fb0c0298bc3e8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    className: "h-100 p-5 text-white bg-dark rounded-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "Programming for the Web with JavaScript"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Valid Certificate ID e9e6073259374dda9d8fb0c0298bc3e8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "https://courses.edx.org/certificates/e9e6073259374dda9d8fb0c0298bc3e8",
     className: "btn btn-primary",
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "Go to validation")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col-sm-6"
+  }, "Go to validation"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col-md-6"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card-body"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h5", {
-    className: "card-title"
-  }, "Algorithms and Data Structures in C#"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "card-text"
-  }, "a course of study offered by Microsoft, an online learning initiative of Microsoft Corporation."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Valid Certificate ID cff61b6bf4a84293beb011510f762d3f"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    className: "h-100 p-5 bg-light border rounded-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, " Algorithms and Data Structures in C#"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Valid Certificate ID cff61b6bf4a84293beb011510f762d3f"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "https://courses.edx.org/certificates/cff61b6bf4a84293beb011510f762d3f",
     className: "btn btn-primary",
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "Go to validation"))))))));
+  }, "Go to validation")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", {
+    className: "pt-3 mt-4 text-muted border-top"
+  }, "\xA9 2021"));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Description);
@@ -1013,14 +1043,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _css_experience_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/experience.css */ "./src/component/css/experience.css");
-/* harmony import */ var _img_server_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../img/server.png */ "./src/img/server.png");
-/* harmony import */ var _iconify_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @iconify/react */ "./node_modules/@iconify/react/dist/icon.esm.js");
-/* harmony import */ var _iconify_icons_logos_nginx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @iconify-icons/logos/nginx */ "./node_modules/@iconify-icons/logos/nginx.js");
-/* harmony import */ var _iconify_icons_logos_linux_tux__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @iconify-icons/logos/linux-tux */ "./node_modules/@iconify-icons/logos/linux-tux.js");
-/* harmony import */ var _iconify_icons_logos_aws__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @iconify-icons/logos/aws */ "./node_modules/@iconify-icons/logos/aws.js");
-/* harmony import */ var _iconify_icons_flat_color_icons_data_encryption__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @iconify-icons/flat-color-icons/data-encryption */ "./node_modules/@iconify-icons/flat-color-icons/data-encryption.js");
-/* harmony import */ var _iconify_icons_flat_color_icons_data_configuration__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @iconify-icons/flat-color-icons/data-configuration */ "./node_modules/@iconify-icons/flat-color-icons/data-configuration.js");
-
+/* harmony import */ var _iconify_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @iconify/react */ "./node_modules/@iconify/react/dist/icon.esm.js");
+/* harmony import */ var _iconify_icons_logos_nginx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @iconify-icons/logos/nginx */ "./node_modules/@iconify-icons/logos/nginx.js");
+/* harmony import */ var _iconify_icons_logos_linux_tux__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @iconify-icons/logos/linux-tux */ "./node_modules/@iconify-icons/logos/linux-tux.js");
+/* harmony import */ var _iconify_icons_logos_aws__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @iconify-icons/logos/aws */ "./node_modules/@iconify-icons/logos/aws.js");
+/* harmony import */ var _iconify_icons_flat_color_icons_data_encryption__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @iconify-icons/flat-color-icons/data-encryption */ "./node_modules/@iconify-icons/flat-color-icons/data-encryption.js");
+/* harmony import */ var _iconify_icons_bi_server__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @iconify-icons/bi/server */ "./node_modules/@iconify-icons/bi/server.js");
 
  //icon
 
@@ -1032,66 +1060,57 @@ __webpack_require__.r(__webpack_exports__);
  //
 
 var Experience = function Experience() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "position-relative container "
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "container mt-5 px-3 py-4",
+    id: "featured-3 bg-secondary"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+    className: "pb-2 border-bottom p-3 mb-2 bg-info text-dark"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_2__.Icon, {
+    icon: _iconify_icons_bi_server__WEBPACK_IMPORTED_MODULE_7__.default,
+    width: "25",
+    height: "25"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "text-segundary"
+  }, "<Server />"), " configuration for this example!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "row g-4 py-5 row-cols-1 row-cols-lg-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "shadow overflow-hidden p-5 mt-5 text-center bg-light"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col-md-10  mx-auto my-5 palante"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
-    className: "mt-3 display-6 fw-bold text-dark"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "text-primary"
-  }, "<Server />"), " ", "configuration for this example!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "p-3 mt-3 row align-items-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_3__.Icon, {
-    icon: _iconify_icons_logos_aws__WEBPACK_IMPORTED_MODULE_6__.default,
+    className: "feature col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_2__.Icon, {
+    className: "bi rounded mx-auto d-block",
+    icon: _iconify_icons_logos_aws__WEBPACK_IMPORTED_MODULE_5__.default,
     width: "50",
     height: "50"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I also have experience in Heroku, BlueHost, GoDaddy, Ionos.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_3__.Icon, {
-    icon: _iconify_icons_logos_nginx__WEBPACK_IMPORTED_MODULE_4__.default,
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+    className: "text-center"
+  }, "AWS cloud"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "The AWS cloud computing platform provides the flexibility to launch your application regardless of your use case or industry."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "All items were purchased from AWS, dominion and instance of EC2 (ubntu)"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "feature col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_2__.Icon, {
+    className: "bi rounded mx-auto d-block",
+    icon: _iconify_icons_logos_nginx__WEBPACK_IMPORTED_MODULE_3__.default,
     width: "50",
     height: "50"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I also have experience in Heroku, BlueHost, GoDaddy, Ionos.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_3__.Icon, {
-    icon: _iconify_icons_logos_linux_tux__WEBPACK_IMPORTED_MODULE_5__.default,
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+    className: "text-center"
+  }, "Reverse Proxy Server"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "NGINX handles the traffic from the domain to the port where the nodeJS application runs, it also encrypts the data using", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_2__.Icon, {
+    icon: _iconify_icons_flat_color_icons_data_encryption__WEBPACK_IMPORTED_MODULE_6__.default,
+    width: "25",
+    height: "25"
+  }), "Let s Encrypt!"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "feature col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_2__.Icon, {
+    className: "bi rounded mx-auto d-block",
+    icon: _iconify_icons_logos_linux_tux__WEBPACK_IMPORTED_MODULE_4__.default,
     width: "50",
     height: "50"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I also have experience in Heroku, BlueHost, GoDaddy, Ionos.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_3__.Icon, {
-    icon: _iconify_icons_flat_color_icons_data_encryption__WEBPACK_IMPORTED_MODULE_7__.default,
-    width: "50",
-    height: "50"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I also have experience in Heroku, BlueHost, GoDaddy, Ionos."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    className: "product-device d-none d-md-block",
-    src: _img_server_png__WEBPACK_IMPORTED_MODULE_2__.default
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "position-relative container "
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "shadow overflow-hidden p-5 mt-5 text-center bg-light"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col-md-10  mx-auto my-5 palante"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
-    className: "display-4 fw-normal palante"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_3__.Icon, {
-    icon: _iconify_icons_flat_color_icons_data_configuration__WEBPACK_IMPORTED_MODULE_8__.default,
-    width: "50",
-    height: "50"
-  }), "Punny headline"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "lead fw-normal"
-  }, "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    className: "btn btn-outline-secondary",
-    href: "#"
-  }, "Coming soon"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    className: "product-device d-none d-md-block",
-    src: _img_server_png__WEBPACK_IMPORTED_MODULE_2__.default
-  })));
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+    className: "mt-3 text-center"
+  }, "Featured title 3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Ubuntu Server (20.04 lts) handle services like PM2, Github, NodeJS, MySQL")))));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Experience);
@@ -1266,20 +1285,14 @@ var dataTest = {
 };
 
 var Skill = function Skill() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "bg-dark text-secondary p-1 mt-5 text-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("article", {
-    className: "blog-post"
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "bg-dark text-secondary p-1 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container p-1"
+    className: "container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container p-1"
+    className: "row mb-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row align-items-center mt-5"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "p-1"
+    className: "col-md-4 themed-grid-col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("table", {
     className: "table text-light bg-dark  table-borderless"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("thead", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
@@ -1288,10 +1301,8 @@ var Skill = function Skill() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", {
       key: Math.random() * 1000000
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, elemnt));
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tfoot", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "****")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "p-1"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tfoot", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "****"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col-md-4 themed-grid-col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("table", {
     className: "table text-light bg-dark  table-borderless"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("thead", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
@@ -1300,10 +1311,8 @@ var Skill = function Skill() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", {
       key: Math.random() * 1000000
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, elemnt));
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tfoot", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "****")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "p-1"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tfoot", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "****"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col-md-4 themed-grid-col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("table", {
     className: "table text-light bg-dark  table-borderless"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("thead", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
@@ -1312,7 +1321,7 @@ var Skill = function Skill() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", {
       key: Math.random() * 1000000
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, elemnt));
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tfoot", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "****")))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, "JALO"))));
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tfoot", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "****")))))))));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Skill);
@@ -10387,21 +10396,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "img/f30b93c4aad101752d3a9e32d8a255b6.png");
-
-/***/ }),
-
-/***/ "./src/img/server.png":
-/*!****************************!*\
-  !*** ./src/img/server.png ***!
-  \****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "img/add42123085ee01f9bca3c4ce6cf58e7.png");
 
 /***/ }),
 
@@ -41184,7 +41178,7 @@ var App = /*#__PURE__*/function (_React$Component) {
   _createClass(App, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_resume__WEBPACK_IMPORTED_MODULE_2__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_experience__WEBPACK_IMPORTED_MODULE_3__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_relate__WEBPACK_IMPORTED_MODULE_6__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_description__WEBPACK_IMPORTED_MODULE_5__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_skill__WEBPACK_IMPORTED_MODULE_4__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_formEmail__WEBPACK_IMPORTED_MODULE_7__.default, null))));
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_resume__WEBPACK_IMPORTED_MODULE_2__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_relate__WEBPACK_IMPORTED_MODULE_6__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_experience__WEBPACK_IMPORTED_MODULE_3__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_description__WEBPACK_IMPORTED_MODULE_5__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_skill__WEBPACK_IMPORTED_MODULE_4__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_formEmail__WEBPACK_IMPORTED_MODULE_7__.default, null))));
     }
   }]);
 
