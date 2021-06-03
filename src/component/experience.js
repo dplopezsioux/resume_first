@@ -13,7 +13,7 @@ import serverIcon from "@iconify-icons/bi/server";
 
 const Experience = () => {
   return (
-    <div className="container mt-5 px-3 py-4" id="featured-3 bg-secondary">
+    <div className="container mt-2 px-3 py-4" id="featured-3 bg-secondary">
       <div>
         <div className="row justify-content-md-center text-light bg-dark">
           <div className="col col-lg-2"></div>

@@ -1061,7 +1061,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var Experience = function Experience() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container mt-5 px-3 py-4",
+    className: "container mt-2 px-3 py-4",
     id: "featured-3 bg-secondary"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row justify-content-md-center text-light bg-dark"
@@ -1188,9 +1188,9 @@ __webpack_require__.r(__webpack_exports__);
 
 var Relate = function Relate() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container col-xxl-8 px-4 py-5"
+    className: "container col-xxl-8 px-2 py-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row flex-lg-row-reverse align-items-center g-5 py-5"
+    className: "row flex-lg-row-reverse align-items-center g-2 py-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "col-10 col-sm-8 col-lg-6"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
