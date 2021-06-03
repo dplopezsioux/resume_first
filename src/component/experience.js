@@ -14,7 +14,7 @@ import serverIcon from "@iconify-icons/bi/server";
 const Experience = () => {
   return (
     <div className="container mt-5 px-3 py-4" id="featured-3 bg-secondary">
-      <h2 className="pb-2 border-bottom p-3 mb-2 bg-info text-dark">
+      <h2 className="pb-2 border-bottom p-3 mb-2 text-light bg-dark">
         <Icon icon={serverIcon} width="25" height="25" />
         <span className="text-segundary">&lt;Server /&gt;</span> configuration
         for this example!

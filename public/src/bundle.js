@@ -1064,7 +1064,7 @@ var Experience = function Experience() {
     className: "container mt-5 px-3 py-4",
     id: "featured-3 bg-secondary"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
-    className: "pb-2 border-bottom p-3 mb-2 bg-info text-dark"
+    className: "pb-2 border-bottom p-3 mb-2 text-light bg-dark"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_2__.Icon, {
     icon: _iconify_icons_bi_server__WEBPACK_IMPORTED_MODULE_7__.default,
     width: "25",
