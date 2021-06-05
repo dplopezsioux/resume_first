@@ -1061,17 +1061,23 @@ __webpack_require__.r(__webpack_exports__);
 
 var Experience = function Experience() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container mt-5 px-3 py-4",
+    className: "container mt-2 px-3 py-4",
     id: "featured-3 bg-secondary"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "row justify-content-md-center text-light bg-dark"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col col-lg-2"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col-md-auto"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
-    className: "pb-2 border-bottom p-3 mb-2 bg-info text-dark"
+    className: "fs-4 pb-2 p-3 mb-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_2__.Icon, {
     icon: _iconify_icons_bi_server__WEBPACK_IMPORTED_MODULE_7__.default,
     width: "25",
     height: "25"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "text-segundary"
-  }, "<Server />"), " configuration for this example!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, "\xA0 < Server /> "), " configuration for this example!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col col-lg-2"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row g-4 py-5 row-cols-1 row-cols-lg-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "feature col"
@@ -1182,9 +1188,9 @@ __webpack_require__.r(__webpack_exports__);
 
 var Relate = function Relate() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container col-xxl-8 px-4 py-5"
+    className: "container col-xxl-8 px-2 py-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row flex-lg-row-reverse align-items-center g-5 py-5"
+    className: "row flex-lg-row-reverse align-items-center g-2 py-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "col-10 col-sm-8 col-lg-6"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
@@ -1282,7 +1288,7 @@ var dataTest = {
   tecnologies: ["nodejs", "MySQL", "MongoDB"],
   languages: ["Javascript", "typescript", "C#", "C++"],
   tools: ["Github", "mongoDb", "MySql", "SqlServer", "wiki"]
-};
+}; //programacion
 
 var Skill = function Skill() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {

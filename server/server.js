@@ -8,8 +8,5 @@ app.get("/", function (req, res) {
   res.render("pages/index");
 });
 
-app.get("/about", function (req, res) {
-  res.render("pages/about");
-});
-
+//localhost 3000
 app.listen(3000);
