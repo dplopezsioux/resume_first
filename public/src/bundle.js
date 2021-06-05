@@ -1305,7 +1305,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _iconify_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @iconify/react */ "./node_modules/@iconify/react/dist/icon.esm.js");
 /* harmony import */ var _iconify_icons_ion_settings_sharp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @iconify-icons/ion/settings-sharp */ "./node_modules/@iconify-icons/ion/settings-sharp.js");
 
-var dataTest = {
+var dataTest = [{
   tecnologies: [{
     name: "nodejs",
     type: "Tecnologies",
@@ -1321,7 +1321,8 @@ var dataTest = {
     type: "Tecnologies",
     url: "https://www.mongodb.com/",
     descrip: "mongoDB is a general purpose, document-based, distributed database built for modern application developers"
-  }],
+  }]
+}, {
   languages: [{
     name: "Javascript",
     type: "languages",
@@ -1342,7 +1343,8 @@ var dataTest = {
     type: "languages",
     url: "https://www.javascript.com/",
     descrip: "JavaScript.com is a resource built by the Pluralsight team for the JavaScript community."
-  }],
+  }]
+}, {
   tools: [{
     name: "Github",
     type: "Tools",
@@ -1364,44 +1366,18 @@ var dataTest = {
     url: "https://www.javascript.com/",
     descrip: "JavaScript.com is a resource built by the Pluralsight team for the JavaScript community."
   }]
-}; //programacion
+}]; //programacion
 // npm install --save-dev @iconify/react @iconify-icons/ion
 
 
 
 
-var Skill = function Skill() {
-  function getRandomColor() {
-    var letters = "0123456789ABCDEF";
-    var color = "#";
-
-    for (var i = 0; i < 6; i++) {
-      color += letters[Math.floor(Math.random() * 16)];
-    }
-
-    return color;
-  }
-
+var TableInterior = function TableInterior() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "bg-white p-3 mt-3 mb-3"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container "
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("header", {
-    className: "pb-3 mt-5 mb-4 border-bottom"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "/",
-    className: "d-flex align-items-center text-dark text-decoration-none"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_1__.Icon, {
-    icon: _iconify_icons_ion_settings_sharp__WEBPACK_IMPORTED_MODULE_2__.default,
-    width: "50",
-    height: "50"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "fs-4"
-  }, "Skills and Tools"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "my-3 p-3 bg-light rounded shadow-lg"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", {
     claclassNamess: "border-bottom pb-2 mb-0"
-  }, "Suggestions"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, "\"dato[0].type\""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "d-flex text-muted pt-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
     className: "bd-placeholder-img flex-shrink-0 me-2 rounded",
@@ -1427,17 +1403,119 @@ var Skill = function Skill() {
     className: "d-flex justify-content-between"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", {
     className: "text-gray-dark"
+  }, "dato.name"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "dato.url"
+  }, "Link to ...")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "d-block"
+  }, "@dato.name")))));
+};
+
+var Tablee = function Tablee(dato) {
+  function getRandomColor() {
+    var letters = "0123456789ABCDEF";
+    var color = "#";
+
+    for (var i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 16)];
+    }
+
+    return color;
+  }
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, console.log(dato), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "my-3 p-3 bg-light rounded shadow-lg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", {
+    claclassNamess: "border-bottom pb-2 mb-0"
+  }, "Type of Tec"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex text-muted pt-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
+    className: "bd-placeholder-img flex-shrink-0 me-2 rounded",
+    width: "32",
+    height: "32",
+    xmlns: "http://www.w3.org/2000/svg",
+    role: "img",
+    "aria-label": "Placeholder: 32x32",
+    preserveAspectRatio: "xMidYMid slice",
+    focusable: "false"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", null, "Placeholder"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("rect", {
+    width: "100%",
+    height: "100%",
+    fill: "#00ff00"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("text", {
+    x: "50%",
+    y: "50%",
+    fill: "#007bff",
+    dy: ".3em"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "pb-3 mb-0 small lh-sm border-bottom w-100"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex justify-content-between"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", {
+    className: "text-gray-dark"
+  }, "dato.name"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "dato.url"
+  }, "Link to ...")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "d-block"
+  }, "@dato.name")))));
+};
+
+function prueba() {
+  return "<div>Prueb</div>";
+}
+
+var Skill = function Skill() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "bg-white p-3 mt-3 mb-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "container "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("header", {
+    className: "pb-3 mt-5 mb-4 border-bottom"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "/",
+    className: "d-flex align-items-center text-dark text-decoration-none"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_1__.Icon, {
+    icon: _iconify_icons_ion_settings_sharp__WEBPACK_IMPORTED_MODULE_2__.default,
+    width: "50",
+    height: "50"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "fs-4"
+  }, "Skills and Tools"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "my-3 p-3 bg-light rounded shadow-lg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", {
+    className: "border-bottom pb-2 mb-0"
+  }, "Suggestions"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex text-muted pt-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
+    className: "bd-placeholder-img flex-shrink-0 me-2 rounded",
+    width: "32",
+    height: "32",
+    xmlns: "http://www.w3.org/2000/svg",
+    role: "img",
+    "aria-label": "Placeholder: 32x32",
+    preserveAspectRatio: "xMidYMid slice",
+    focusable: "false"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", null, "Placeholder"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("rect", {
+    width: "100%",
+    height: "100%",
+    fill: "00ff00"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("text", {
+    x: "50%",
+    y: "50%",
+    fill: "#007bff",
+    dy: ".3em"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "pb-3 mb-0 small lh-sm border-bottom w-100"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex justify-content-between"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", {
+    className: "text-gray-dark"
   }, "Full Name"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "#"
   }, "Follow")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: "d-block"
-  }, "@username", dataTest.languages[0].name, dataTest.map(function (a) {
-    return "WHats";
-  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("small", {
-    className: "d-block text-end mt-3"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "#"
-  }, "All suggestions"))))));
+  }, "@username")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, dataTest.map(function (dato) {
+    prueba();
+  })))));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Skill);
