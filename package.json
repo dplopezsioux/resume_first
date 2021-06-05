@@ -2,7 +2,7 @@
   "name": "app_presentation",
   "version": "1.0.0",
   "description": "resumen presentation",
-  "main": "lib/server.js",
+  "main": "server/server.js",
   "directories": {
     "lib": "lib"
   },
@@ -12,7 +12,8 @@
     "dev": "webpack --mode development",
     "devserver": "webpack serve --config ./webpack.config.js --mode development",
     "watch": "webpack --watch --progress --mode development",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "pm2 start ./server/server.js --watch"
   },
   "repository": {
     "type": "git",

@@ -66,8 +66,6 @@ const Description = () => {
           </div>
         </div>
       </div>
-
-      <footer className="pt-3 mt-4 text-muted border-top">© 2021</footer>
     </div>
   );
 };

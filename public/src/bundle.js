@@ -103,6 +103,27 @@ var data = {
 
 /***/ }),
 
+/***/ "./node_modules/@iconify-icons/ion/settings-sharp.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/@iconify-icons/ion/settings-sharp.js ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var data = {
+	"body": "<path d=\"M256 176a80 80 0 1 0 80 80a80.24 80.24 0 0 0-80-80zm172.72 80a165.53 165.53 0 0 1-1.64 22.34l48.69 38.12a11.59 11.59 0 0 1 2.63 14.78l-46.06 79.52a11.64 11.64 0 0 1-14.14 4.93l-57.25-23a176.56 176.56 0 0 1-38.82 22.67l-8.56 60.78a11.93 11.93 0 0 1-11.51 9.86h-92.12a12 12 0 0 1-11.51-9.53l-8.56-60.78A169.3 169.3 0 0 1 151.05 393L93.8 416a11.64 11.64 0 0 1-14.14-4.92L33.6 331.57a11.59 11.59 0 0 1 2.63-14.78l48.69-38.12A174.58 174.58 0 0 1 83.28 256a165.53 165.53 0 0 1 1.64-22.34l-48.69-38.12a11.59 11.59 0 0 1-2.63-14.78l46.06-79.52a11.64 11.64 0 0 1 14.14-4.93l57.25 23a176.56 176.56 0 0 1 38.82-22.67l8.56-60.78A11.93 11.93 0 0 1 209.94 26h92.12a12 12 0 0 1 11.51 9.53l8.56 60.78A169.3 169.3 0 0 1 361 119l57.2-23a11.64 11.64 0 0 1 14.14 4.92l46.06 79.52a11.59 11.59 0 0 1-2.63 14.78l-48.69 38.12a174.58 174.58 0 0 1 1.64 22.66z\" fill=\"currentColor\"/>",
+	"width": 512,
+	"height": 512
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (data);
+
+
+/***/ }),
+
 /***/ "./node_modules/@iconify-icons/logos/aws.js":
 /*!**************************************************!*\
   !*** ./node_modules/@iconify-icons/logos/aws.js ***!
@@ -1021,9 +1042,7 @@ var Description = function Description() {
     className: "btn btn-primary",
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "Go to validation")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", {
-    className: "pt-3 mt-4 text-muted border-top"
-  }, "\xA9 2021"));
+  }, "Go to validation")))));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Description);
@@ -1283,51 +1302,142 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _iconify_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @iconify/react */ "./node_modules/@iconify/react/dist/icon.esm.js");
+/* harmony import */ var _iconify_icons_ion_settings_sharp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @iconify-icons/ion/settings-sharp */ "./node_modules/@iconify-icons/ion/settings-sharp.js");
 
 var dataTest = {
-  tecnologies: ["nodejs", "MySQL", "MongoDB"],
-  languages: ["Javascript", "typescript", "C#", "C++"],
-  tools: ["Github", "mongoDb", "MySql", "SqlServer", "wiki"]
+  tecnologies: [{
+    name: "nodejs",
+    type: "Tecnologies",
+    url: "https://nodejs.org/en/",
+    descrip: "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine."
+  }, {
+    name: "mySQL",
+    type: "Tecnologies",
+    url: "https://www.mysql.com/",
+    descrip: " 2021, Oracle Corporation and/or its affiliates"
+  }, {
+    name: "mongoDb",
+    type: "Tecnologies",
+    url: "https://www.mongodb.com/",
+    descrip: "mongoDB is a general purpose, document-based, distributed database built for modern application developers"
+  }],
+  languages: [{
+    name: "Javascript",
+    type: "languages",
+    url: "https://www.javascript.com/",
+    descrip: "JavaScript.com is a resource built by the Pluralsight team for the JavaScript community."
+  }, {
+    name: "Typescript",
+    type: "languages",
+    url: "https://www.javascript.com/",
+    descrip: "JavaScript.com is a resource built by the Pluralsight team for the JavaScript community."
+  }, {
+    name: "C#",
+    type: "languages",
+    url: "https://www.javascript.com/",
+    descrip: "JavaScript.com is a resource built by the Pluralsight team for the JavaScript community."
+  }, {
+    name: "C++",
+    type: "languages",
+    url: "https://www.javascript.com/",
+    descrip: "JavaScript.com is a resource built by the Pluralsight team for the JavaScript community."
+  }],
+  tools: [{
+    name: "Github",
+    type: "Tools",
+    url: "https://www.javascript.com/",
+    descrip: "JavaScript.com is a resource built by the Pluralsight team for the JavaScript community."
+  }, {
+    name: "mongoDb",
+    type: "Tools",
+    url: "https://www.javascript.com/",
+    descrip: "JavaScript.com is a resource built by the Pluralsight team for the JavaScript community."
+  }, {
+    name: "MySql",
+    type: "Tools",
+    url: "https://www.javascript.com/",
+    descrip: "JavaScript.com is a resource built by the Pluralsight team for the JavaScript community."
+  }, {
+    name: "SqlServer",
+    type: "Tools",
+    url: "https://www.javascript.com/",
+    descrip: "JavaScript.com is a resource built by the Pluralsight team for the JavaScript community."
+  }]
 }; //programacion
+// npm install --save-dev @iconify/react @iconify-icons/ion
+
+
+
 
 var Skill = function Skill() {
+  function getRandomColor() {
+    var letters = "0123456789ABCDEF";
+    var color = "#";
+
+    for (var i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 16)];
+    }
+
+    return color;
+  }
+
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "bg-dark text-secondary p-1 text-center"
+    className: "bg-white p-3 mt-3 mb-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container"
+    className: "container "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("header", {
+    className: "pb-3 mt-5 mb-4 border-bottom"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "/",
+    className: "d-flex align-items-center text-dark text-decoration-none"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_1__.Icon, {
+    icon: _iconify_icons_ion_settings_sharp__WEBPACK_IMPORTED_MODULE_2__.default,
+    width: "50",
+    height: "50"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "fs-4"
+  }, "Skills and Tools"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "my-3 p-3 bg-light rounded shadow-lg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", {
+    claclassNamess: "border-bottom pb-2 mb-0"
+  }, "Suggestions"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex text-muted pt-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
+    className: "bd-placeholder-img flex-shrink-0 me-2 rounded",
+    width: "32",
+    height: "32",
+    xmlns: "http://www.w3.org/2000/svg",
+    role: "img",
+    "aria-label": "Placeholder: 32x32",
+    preserveAspectRatio: "xMidYMid slice",
+    focusable: "false"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", null, "Placeholder"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("rect", {
+    width: "100%",
+    height: "100%",
+    fill: getRandomColor()
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("text", {
+    x: "50%",
+    y: "50%",
+    fill: "#007bff",
+    dy: ".3em"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "pb-3 mb-0 small lh-sm border-bottom w-100"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row mb-3"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col-md-4 themed-grid-col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("table", {
-    className: "table text-light bg-dark  table-borderless"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("thead", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
-    className: "display-6"
-  }, "Tecnologies")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tbody", null, dataTest.tecnologies.map(function (elemnt) {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", {
-      key: Math.random() * 1000000
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, elemnt));
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tfoot", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "****"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col-md-4 themed-grid-col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("table", {
-    className: "table text-light bg-dark  table-borderless"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("thead", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
-    className: "display-6"
-  }, "Lenguajes")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tbody", null, dataTest.languages.map(function (elemnt) {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", {
-      key: Math.random() * 1000000
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, elemnt));
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tfoot", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "****"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col-md-4 themed-grid-col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("table", {
-    className: "table text-light bg-dark  table-borderless"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("thead", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
-    className: "display-6"
-  }, "Tools")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tbody", null, dataTest.tools.map(function (elemnt) {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", {
-      key: Math.random() * 1000000
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, elemnt));
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tfoot", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "****")))))))));
+    className: "d-flex justify-content-between"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", {
+    className: "text-gray-dark"
+  }, "Full Name"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "#"
+  }, "Follow")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "d-block"
+  }, "@username", dataTest.languages[0].name, dataTest.map(function (a) {
+    return "WHats";
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("small", {
+    className: "d-block text-end mt-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "#"
+  }, "All suggestions"))))));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Skill);
