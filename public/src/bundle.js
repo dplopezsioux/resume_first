@@ -1098,7 +1098,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var Experience = function Experience() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container mt-5 px-3 py-4",
+    className: "container mt-5 px-3 py-4 bg-light",
     id: "featured-3 bg-secondary"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("header", {
     className: "pb-3 mb-4 border-bottom"
@@ -1109,9 +1109,9 @@ var Experience = function Experience() {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: "fs-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, "\xA0 < Server /> "), " configuration for this example!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row g-4 py-5 row-cols-1 row-cols-lg-3"
+    className: "row g-4 py-5  row-cols-1 row-cols-lg-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "feature col"
+    className: "feature col "
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_2__.Icon, {
     className: "bi rounded mx-auto d-block",
     icon: _iconify_icons_logos_aws__WEBPACK_IMPORTED_MODULE_5__.default,
