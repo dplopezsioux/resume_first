@@ -11,18 +11,13 @@ import logoElectron from "@iconify-icons/ion/logo-electron";
 
 const Description = () => {
   return (
-    <div className="container py-4">
+    <div className="container mt-5 py-4">
       <header className="pb-3 mb-4 border-bottom">
-        <a
-          href="/"
-          className="d-flex align-items-center text-dark text-decoration-none"
-        >
-          <Icon icon={logoElectron} width="50" height="50" />
-          <span className="fs-4">Education &amp; certification</span>
-        </a>
+        <Icon icon={logoElectron} width="50" height="50" />
+        <span className="fs-4">Education &amp; certification</span>
       </header>
 
-      <div className="p-5 mb-4 bg-light rounded-3">
+      <div className="p-5 mb-4 bg-light border rounded-3">
         <div className="container-fluid py-5">
           <h1 className="display-5 fw-bold">Education</h1>
           <p className="col-md-8 fs-4">
@@ -37,7 +32,7 @@ const Description = () => {
 
       <div className="row align-items-md-stretch">
         <div className="col-md-6">
-          <div className="h-100 p-5 text-white bg-dark rounded-3">
+          <div className="h-100 p-5 bg-light border rounded-3">
             <h2>Programming for the Web with JavaScript</h2>
 
             <p>Valid Certificate ID e9e6073259374dda9d8fb0c0298bc3e8</p>

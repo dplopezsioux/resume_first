@@ -176,16 +176,11 @@ class Skill extends React.Component {
   render() {
     return (
       <div>
-        <div className="bg-white p-3 mt-3 mb-3">
+        <div className="bg-white p-3 mt-5 mb-3">
           <div className="container ">
             <header className="pb-3 mt-5 mb-4 border-bottom">
-              <a
-                href="/"
-                className="d-flex align-items-center text-dark text-decoration-none"
-              >
-                <Icon icon={settingsSharp} width="50" height="50" />
-                <span className="fs-4">Skills and Tools</span>
-              </a>
+              <Icon icon={settingsSharp} width="50" height="50" />
+              <span className="fs-4">Skills and Tools</span>
             </header>
 
             <div>

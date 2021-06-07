@@ -3,7 +3,7 @@ import React from "react";
 const Relate = () => {
   return (
     <div>
-      <div className="container col-xxl-8 px-2 py-3">
+      <div className="container mt-5 col-xxl-8 px-2 py-3">
         <div className="row flex-lg-row-reverse align-items-center g-2 py-3">
           <div className="col-10 col-sm-8 col-lg-6">
             <img

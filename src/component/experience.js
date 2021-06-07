@@ -13,20 +13,14 @@ import serverIcon from "@iconify-icons/bi/server";
 
 const Experience = () => {
   return (
-    <div className="container mt-2 px-3 py-4" id="featured-3 bg-secondary">
-      <div>
-        <div className="row justify-content-md-center text-light bg-dark">
-          <div className="col col-lg-2"></div>
-          <div className="col-md-auto">
-            <h2 className="fs-4 pb-2 p-3 mb-2">
-              <Icon icon={serverIcon} width="25" height="25" />
-              <span>&nbsp; &lt; Server /&gt; </span> configuration for this
-              example!
-            </h2>
-          </div>
-          <div className="col col-lg-2"></div>
-        </div>
-      </div>
+    <div className="container mt-5 px-3 py-4" id="featured-3 bg-secondary">
+      <header className="pb-3 mb-4 border-bottom">
+        <Icon icon={serverIcon} width="50" height="50" />
+        <span className="fs-4">
+          <span>&nbsp; &lt; Server /&gt; </span> configuration for this example!
+        </span>
+      </header>
+
       <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
         <div className="feature col">
           <Icon
