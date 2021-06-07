@@ -155,7 +155,7 @@ class TablaSkill extends React.Component {
 
     console.log(props);
     return (
-      <div className="my-3 p-3 bg-light rounded shadow-lg">
+      <div className="my-3 p-3 bg-light rounded shadow-sm">
         {names.map((keyname) => {
           return (
             <div key={Math.random() * 10000}>

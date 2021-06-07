@@ -1515,7 +1515,7 @@ var TablaSkill = /*#__PURE__*/function (_React$Component2) {
       var props = this.props.dataskill;
       console.log(props);
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "my-3 p-3 bg-light rounded shadow-lg"
+        className: "my-3 p-3 bg-light rounded shadow-sm"
       }, names.map(function (keyname) {
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
           key: Math.random() * 10000
