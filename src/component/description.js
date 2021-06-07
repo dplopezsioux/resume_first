@@ -31,7 +31,7 @@ const Description = () => {
       </div>
 
       <div className="row align-items-md-stretch">
-        <div className="col-md-6">
+        <div className="col-md-6  mb-5">
           <div className="h-100 p-5 bg-light border rounded-3">
             <h2>Programming for the Web with JavaScript</h2>
 
@@ -46,7 +46,7 @@ const Description = () => {
             </a>
           </div>
         </div>
-        <div className="col-md-6">
+        <div className="col-md-6  mb-5">
           <div className="h-100 p-5 bg-light border rounded-3">
             <h2> Algorithms and Data Structures in C#</h2>
             <p>Valid Certificate ID cff61b6bf4a84293beb011510f762d3f</p>

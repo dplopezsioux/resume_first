@@ -1043,7 +1043,7 @@ var Description = function Description() {
   }, "Universidad Central Marta Abreu\u200B de Las Villas Degree 2009 \u2013 2014"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row align-items-md-stretch"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col-md-6"
+    className: "col-md-6  mb-5"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "h-100 p-5 bg-light border rounded-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "Programming for the Web with JavaScript"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Valid Certificate ID e9e6073259374dda9d8fb0c0298bc3e8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
@@ -1052,7 +1052,7 @@ var Description = function Description() {
     target: "_blank",
     rel: "noopener noreferrer"
   }, "Go to validation"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col-md-6"
+    className: "col-md-6  mb-5"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "h-100 p-5 bg-light border rounded-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, " Algorithms and Data Structures in C#"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Valid Certificate ID cff61b6bf4a84293beb011510f762d3f"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
