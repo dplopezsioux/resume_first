@@ -177,60 +177,68 @@ const Tablee = (dato) => {
   );
 };
 
-function prueba() {
-  return "<div>Prueb</div>";
+class Prueba extends React.Component {
+  render() {
+    const propsS = this.props;
+    const names = Object.keys(propsS.inform);
+    names.map();
+    console.log(Object.keys(propsS.inform));
+    return <div>WHATS</div>;
+  }
 }
 
-const Skill = () => {
-  return (
-    <div>
-      <div className="bg-white p-3 mt-3 mb-3">
-        <div className="container ">
-          <header className="pb-3 mt-5 mb-4 border-bottom">
-            <a
-              href="/"
-              className="d-flex align-items-center text-dark text-decoration-none"
-            >
-              <Icon icon={settingsSharp} width="50" height="50" />
-              <span className="fs-4">Skills and Tools</span>
-            </a>
-          </header>
-          <div className="my-3 p-3 bg-light rounded shadow-lg">
-            <h6 className="border-bottom pb-2 mb-0">Suggestions</h6>
-            <div className="d-flex text-muted pt-3">
-              <svg
-                className="bd-placeholder-img flex-shrink-0 me-2 rounded"
-                width="32"
-                height="32"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                aria-label="Placeholder: 32x32"
-                preserveAspectRatio="xMidYMid slice"
-                focusable="false"
+class Skill extends React.Component {
+  render() {
+    return (
+      <div>
+        <div className="bg-white p-3 mt-3 mb-3">
+          <div className="container ">
+            <header className="pb-3 mt-5 mb-4 border-bottom">
+              <a
+                href="/"
+                className="d-flex align-items-center text-dark text-decoration-none"
               >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="00ff00"></rect>
-                <text x="50%" y="50%" fill="#007bff" dy=".3em"></text>
-              </svg>
+                <Icon icon={settingsSharp} width="50" height="50" />
+                <span className="fs-4">Skills and Tools</span>
+              </a>
+            </header>
+            <div className="my-3 p-3 bg-light rounded shadow-lg">
+              <h6 className="border-bottom pb-2 mb-0">Suggestions</h6>
+              <div className="d-flex text-muted pt-3">
+                <svg
+                  className="bd-placeholder-img flex-shrink-0 me-2 rounded"
+                  width="32"
+                  height="32"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  aria-label="Placeholder: 32x32"
+                  preserveAspectRatio="xMidYMid slice"
+                  focusable="false"
+                >
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="00ff00"></rect>
+                  <text x="50%" y="50%" fill="#007bff" dy=".3em"></text>
+                </svg>
 
-              <div className="pb-3 mb-0 small lh-sm border-bottom w-100">
-                <div className="d-flex justify-content-between">
-                  <strong className="text-gray-dark">Full Name</strong>
-                  <a href="#">Follow</a>
+                <div className="pb-3 mb-0 small lh-sm border-bottom w-100">
+                  <div className="d-flex justify-content-between">
+                    <strong className="text-gray-dark">Full Name</strong>
+                    <a href="#">Follow</a>
+                  </div>
+                  <span className="d-block">@username</span>
                 </div>
-                <span className="d-block">@username</span>
               </div>
             </div>
-          </div>
-          <div>
-            {dataTest.map((dato) => {
-              prueba();
-            })}
+            <div>
+              {dataTest.map((data) => (
+                <Prueba inform={data} key={Math.random() * 10000} />
+              ))}
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 export default Skill;
