@@ -16,7 +16,7 @@ const FormEmail = () => {
           <span className="fs-1 text-light">Contact </span>
         </header>
         <div className="h-100 p-5 bg-light border rounded-3">
-          <form>
+          <form onSubmit={}>
             <div className="mb-3">
               <label className="form-label">Email address</label>
               <input
@@ -43,8 +43,8 @@ const FormEmail = () => {
           </form>
           <h6>This is a private Message</h6>
           <p>
-            Your personal information such as email or data that you send in the
-            mesanjes are private and will not be disclosed!
+            Your personal information, such as email or the data you send in
+            message, is private and will not be disclosed!
           </p>
         </div>
       </div>
