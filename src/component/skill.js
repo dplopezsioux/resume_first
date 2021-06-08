@@ -89,7 +89,7 @@ class Skill extends React.Component {
 
   componentDidMount() {
     axios
-      .get("http://localhost:3000/api/skill")
+      .get("https://dpinformation.me/api/skill")
       .then((res) => {
         this.setState({ data: res.data });
       })
