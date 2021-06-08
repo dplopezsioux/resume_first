@@ -40,6 +40,27 @@ __webpack_require__(/*! regenerator-runtime/runtime */ "./node_modules/regenerat
 
 /***/ }),
 
+/***/ "./node_modules/@iconify-icons/ant-design/message-twotone.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/@iconify-icons/ant-design/message-twotone.js ***!
+  \*******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var data = {
+	"body": "<path d=\"M775.3 248.9a369.62 369.62 0 0 0-119-80A370.2 370.2 0 0 0 512.1 140h-1.7c-99.7.4-193 39.4-262.8 109.9c-69.9 70.5-108 164.1-107.6 263.8c.3 60.3 15.3 120.2 43.5 173.1l4.5 8.4V836h140.8l8.4 4.5c52.9 28.2 112.8 43.2 173.1 43.5h1.7c99 0 192-38.2 262.1-107.6c70.4-69.8 109.5-163.1 110.1-262.7c.2-50.6-9.5-99.6-28.9-145.8a370.15 370.15 0 0 0-80-119zM312 560a48.01 48.01 0 0 1 0-96a48.01 48.01 0 0 1 0 96zm200 0a48.01 48.01 0 0 1 0-96a48.01 48.01 0 0 1 0 96zm200 0a48.01 48.01 0 0 1 0-96a48.01 48.01 0 0 1 0 96z\" fill-opacity=\".15\" fill=\"currentColor\"/><path d=\"M664 512a48 48 0 1 0 96 0a48 48 0 1 0-96 0zm-400 0a48 48 0 1 0 96 0a48 48 0 1 0-96 0z\" fill=\"currentColor\"/><path d=\"M925.2 338.4c-22.6-53.7-55-101.9-96.3-143.3a444.35 444.35 0 0 0-143.3-96.3C630.6 75.7 572.2 64 512 64h-2c-60.6.3-119.3 12.3-174.5 35.9a445.35 445.35 0 0 0-142 96.5c-40.9 41.3-73 89.3-95.2 142.8c-23 55.4-34.6 114.3-34.3 174.9A449.4 449.4 0 0 0 112 714v152a46 46 0 0 0 46 46h152.1A449.4 449.4 0 0 0 510 960h2.1c59.9 0 118-11.6 172.7-34.3a444.48 444.48 0 0 0 142.8-95.2c41.3-40.9 73.8-88.7 96.5-142c23.6-55.2 35.6-113.9 35.9-174.5c.3-60.9-11.5-120-34.8-175.6zm-151.1 438C704 845.8 611 884 512 884h-1.7c-60.3-.3-120.2-15.3-173.1-43.5l-8.4-4.5H188V695.2l-4.5-8.4C155.3 633.9 140.3 574 140 513.7c-.4-99.7 37.7-193.3 107.6-263.8c69.8-70.5 163.1-109.5 262.8-109.9h1.7c50 0 98.5 9.7 144.2 28.9c44.6 18.7 84.6 45.6 119 80c34.3 34.3 61.3 74.4 80 119c19.4 46.2 29.1 95.2 28.9 145.8c-.6 99.6-39.7 192.9-110.1 262.7z\" fill=\"currentColor\"/><path d=\"M464 512a48 48 0 1 0 96 0a48 48 0 1 0-96 0z\" fill=\"currentColor\"/>",
+	"width": 1024,
+	"height": 1024
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (data);
+
+
+/***/ }),
+
 /***/ "./node_modules/@iconify-icons/bi/server.js":
 /*!**************************************************!*\
   !*** ./node_modules/@iconify-icons/bi/server.js ***!
@@ -2808,10 +2829,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./src/component/description.js":
-/*!**************************************!*\
-  !*** ./src/component/description.js ***!
-  \**************************************/
+/***/ "./src/component/Builtit.js":
+/*!**********************************!*\
+  !*** ./src/component/Builtit.js ***!
+  \**********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2820,68 +2841,46 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _iconify_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @iconify/react */ "./node_modules/@iconify/react/dist/icon.esm.js");
-/* harmony import */ var _iconify_icons_ion_logo_electron__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @iconify-icons/ion/logo-electron */ "./node_modules/@iconify-icons/ion/logo-electron.js");
- //icos
-//import { Icon } from "@iconify/react";
-//import logoElectron from "@iconify-icons/ion/logo-electron";
-// npm install --save-dev @iconify/react @iconify-icons/ion
 
 
-
-
-var Description = function Description() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container mt-5 py-4"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("header", {
-    className: "pb-3 mb-4 border-bottom"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_1__.Icon, {
-    icon: _iconify_icons_ion_logo_electron__WEBPACK_IMPORTED_MODULE_2__.default,
-    width: "50",
-    height: "50"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "fs-4"
-  }, "Education & certification")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "p-5 mb-4 bg-light border rounded-3"
+var Relate = function Relate() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "container mt-5 col-xxl-8 px-2 py-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container-fluid py-5"
+    className: "row flex-lg-row-reverse align-items-center g-2 py-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col-10 col-sm-8 col-lg-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "https://creativetimblog.com/blog/wp-content/uploads/2019/02/opt_blk_react_thumbnail.jpg",
+    className: "d-block mx-lg-auto img-fluid",
+    alt: "Bootstrap Themes",
+    width: "700",
+    height: "500",
+    loading: "lazy"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col-lg-6"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
-    className: "display-5 fw-bold"
-  }, "Education"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "col-md-8 fs-4"
-  }, "University of Pennsylvania Degree Name Computer Science Essentials for Software graduation 2020 \u2013 2022"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "col-md-8 fs-4"
-  }, "Universidad Central Marta Abreu\u200B de Las Villas Degree 2009 \u2013 2014"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row align-items-md-stretch"
+    className: "display-5 fw-bold lh-1 mb-3"
+  }, "How did I build this!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Try to use a lot of Full Stack technologies. The applications is interpreted by babel and packaged with webpack. Eslint reviews the details of the code, ensuring that it meets the writing standards and updates of ECMAScript 2020."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Webpack handles 'JS' 'CSS' and 'JPEG' or 'PNG' files, then generates the files for production. They are executed by an 'ExpressJS' server that manages the API that manipulates the application data in the backEnd."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-grid gap-2 d-md-flex justify-content-md-start"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col-md-6  mb-5"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "h-100 p-5 bg-light border rounded-3"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "Programming for the Web with JavaScript"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Valid Certificate ID e9e6073259374dda9d8fb0c0298bc3e8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "https://courses.edx.org/certificates/e9e6073259374dda9d8fb0c0298bc3e8",
+    className: "btn-group"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "https://github.com/dplopezsioux/resume",
     className: "btn btn-primary",
-    target: "_blank",
-    rel: "noopener noreferrer"
-  }, "Go to validation"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col-md-6  mb-5"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "h-100 p-5 bg-light border rounded-3"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, " Algorithms and Data Structures in C#"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Valid Certificate ID cff61b6bf4a84293beb011510f762d3f"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "https://courses.edx.org/certificates/cff61b6bf4a84293beb011510f762d3f",
-    className: "btn btn-primary",
-    target: "_blank",
-    rel: "noopener noreferrer"
-  }, "Go to validation")))));
+    "aria-current": "page",
+    target: "blank"
+  }, "Download from Github")))))));
 };
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Description);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Relate);
 
 /***/ }),
 
-/***/ "./src/component/experience.js":
-/*!*************************************!*\
-  !*** ./src/component/experience.js ***!
-  \*************************************/
+/***/ "./src/component/Configurationforthis.js":
+/*!***********************************************!*\
+  !*** ./src/component/Configurationforthis.js ***!
+  \***********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2965,20 +2964,10 @@ var Experience = function Experience() {
 
 /***/ }),
 
-/***/ "./src/component/formEmail.js":
-/*!************************************!*\
-  !*** ./src/component/formEmail.js ***!
-  \************************************/
-/***/ (() => {
-
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /home/dplopez/Desktop/resume/src/component/formEmail.js: JSX attributes must only be assigned a non-empty expression. (19:25)\n\n\u001b[0m \u001b[90m 17 |\u001b[39m         \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mheader\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m         \u001b[33m<\u001b[39m\u001b[33mdiv\u001b[39m className\u001b[33m=\u001b[39m\u001b[32m\"h-100 p-5 bg-light border rounded-3\"\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 19 |\u001b[39m           \u001b[33m<\u001b[39m\u001b[33mform\u001b[39m onSubmit\u001b[33m=\u001b[39m{}\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 20 |\u001b[39m             \u001b[33m<\u001b[39m\u001b[33mdiv\u001b[39m className\u001b[33m=\u001b[39m\u001b[32m\"mb-3\"\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 |\u001b[39m               \u001b[33m<\u001b[39m\u001b[33mlabel\u001b[39m className\u001b[33m=\u001b[39m\u001b[32m\"form-label\"\u001b[39m\u001b[33m>\u001b[39m\u001b[33mEmail\u001b[39m address\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mlabel\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 22 |\u001b[39m               \u001b[33m<\u001b[39m\u001b[33minput\u001b[39m\u001b[0m\n    at Object._raise (/home/dplopez/Desktop/resume/node_modules/@babel/parser/lib/index.js:810:17)\n    at Object.raiseWithData (/home/dplopez/Desktop/resume/node_modules/@babel/parser/lib/index.js:803:17)\n    at Object.raise (/home/dplopez/Desktop/resume/node_modules/@babel/parser/lib/index.js:764:17)\n    at Object.jsxParseAttributeValue (/home/dplopez/Desktop/resume/node_modules/@babel/parser/lib/index.js:5057:16)\n    at Object.jsxParseAttribute (/home/dplopez/Desktop/resume/node_modules/@babel/parser/lib/index.js:5106:46)\n    at Object.jsxParseOpeningElementAfterName (/home/dplopez/Desktop/resume/node_modules/@babel/parser/lib/index.js:5126:28)\n    at Object.jsxParseOpeningElementAt (/home/dplopez/Desktop/resume/node_modules/@babel/parser/lib/index.js:5119:17)\n    at Object.jsxParseElementAt (/home/dplopez/Desktop/resume/node_modules/@babel/parser/lib/index.js:5151:33)\n    at Object.jsxParseElementAt (/home/dplopez/Desktop/resume/node_modules/@babel/parser/lib/index.js:5167:32)\n    at Object.jsxParseElementAt (/home/dplopez/Desktop/resume/node_modules/@babel/parser/lib/index.js:5167:32)");
-
-/***/ }),
-
-/***/ "./src/component/relate.js":
-/*!*********************************!*\
-  !*** ./src/component/relate.js ***!
-  \*********************************/
+/***/ "./src/component/ContactForm.js":
+/*!**************************************!*\
+  !*** ./src/component/ContactForm.js ***!
+  \**************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2987,45 +2976,132 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _iconify_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @iconify/react */ "./node_modules/@iconify/react/dist/icon.esm.js");
+/* harmony import */ var _iconify_icons_ant_design_message_twotone__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @iconify-icons/ant-design/message-twotone */ "./node_modules/@iconify-icons/ant-design/message-twotone.js");
+ //ico
+// npm install --save-dev @iconify/react @iconify-icons/ant-design
 
 
-var Relate = function Relate() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container mt-5 col-xxl-8 px-2 py-3"
+ //////
+
+var FormEmail = function FormEmail() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "p-5 mt-5 bg-dark"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row flex-lg-row-reverse align-items-center g-2 py-3"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col-10 col-sm-8 col-lg-6"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: "https://creativetimblog.com/blog/wp-content/uploads/2019/02/opt_blk_react_thumbnail.jpg",
-    className: "d-block mx-lg-auto img-fluid",
-    alt: "Bootstrap Themes",
-    width: "700",
-    height: "500",
-    loading: "lazy"
+    className: "container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("header", {
+    className: "pb-3 mb-4 border-bottom"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_1__.Icon, {
+    icon: _iconify_icons_ant_design_message_twotone__WEBPACK_IMPORTED_MODULE_2__.default,
+    color: "#ffffff",
+    width: "50",
+    height: "50"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "fs-1 text-light"
+  }, "Contact ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "h-100 p-5 bg-light border rounded-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("form", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "mb-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
+    className: "form-label"
+  }, "Email address"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
+    type: "email",
+    className: "form-control",
+    id: "exampleFormControlInput1",
+    placeholder: "name@example.com"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col-lg-6"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
-    className: "display-5 fw-bold lh-1 mb-3"
-  }, "How did I build this!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Try to use a lot of Full Stack technologies. The applications is interpreted by babel and packaged with webpack. Eslint reviews the details of the code, ensuring that it meets the writing standards and updates of ECMAScript 2020."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Webpack handles 'JS' 'CSS' and 'JPEG' or 'PNG' files, then generates the files for production. They are executed by an 'ExpressJS' server that manages the API that manipulates the application data in the backEnd."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "d-grid gap-2 d-md-flex justify-content-md-start"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "btn-group"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "https://github.com/dplopezsioux/resume",
-    className: "btn btn-primary",
-    "aria-current": "page",
-    target: "blank"
-  }, "Download from Github")))))));
+    className: "mb-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
+    className: "form-label"
+  }, "Text"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("textarea", {
+    className: "form-control",
+    id: "exampleFormControlTextarea1",
+    rows: "3"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "mb-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    type: "button",
+    className: "btn btn-secondary mt-5"
+  }, "Send!"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", null, "This is a private Message"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Your personal information, such as email or the data you send in message, is private and will not be disclosed!"))));
 };
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Relate);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (FormEmail);
 
 /***/ }),
 
-/***/ "./src/component/resume.js":
+/***/ "./src/component/Education.js":
+/*!************************************!*\
+  !*** ./src/component/Education.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _iconify_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @iconify/react */ "./node_modules/@iconify/react/dist/icon.esm.js");
+/* harmony import */ var _iconify_icons_ion_logo_electron__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @iconify-icons/ion/logo-electron */ "./node_modules/@iconify-icons/ion/logo-electron.js");
+ //icos
+//import { Icon } from "@iconify/react";
+//import logoElectron from "@iconify-icons/ion/logo-electron";
+// npm install --save-dev @iconify/react @iconify-icons/ion
+
+
+
+
+var Description = function Description() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "container mt-5 py-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("header", {
+    className: "pb-3 mb-4 border-bottom"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_1__.Icon, {
+    icon: _iconify_icons_ion_logo_electron__WEBPACK_IMPORTED_MODULE_2__.default,
+    width: "50",
+    height: "50"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "fs-4"
+  }, "Education & certification")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "p-5 mb-4 bg-light border rounded-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "container-fluid py-5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: "display-5 fw-bold"
+  }, "Education"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "col-md-8 fs-4"
+  }, "University of Pennsylvania Degree Name Computer Science Essentials for Software graduation 2020 \u2013 2022"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "col-md-8 fs-4"
+  }, "Universidad Central Marta Abreu\u200B de Las Villas Degree 2009 \u2013 2014"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "row align-items-md-stretch"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col-md-6  mb-5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "h-100 p-5 bg-light border rounded-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "Programming for the Web with JavaScript"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Valid Certificate ID e9e6073259374dda9d8fb0c0298bc3e8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "https://courses.edx.org/certificates/e9e6073259374dda9d8fb0c0298bc3e8",
+    className: "btn btn-primary",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, "Go to validation"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col-md-6  mb-5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "h-100 p-5 bg-light border rounded-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, " Algorithms and Data Structures in C#"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Valid Certificate ID cff61b6bf4a84293beb011510f762d3f"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "https://courses.edx.org/certificates/cff61b6bf4a84293beb011510f762d3f",
+    className: "btn btn-primary",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, "Go to validation")))));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Description);
+
+/***/ }),
+
+/***/ "./src/component/Resume.js":
 /*!*********************************!*\
-  !*** ./src/component/resume.js ***!
+  !*** ./src/component/Resume.js ***!
   \*********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -3074,9 +3150,9 @@ var Resume = function Resume() {
 
 /***/ }),
 
-/***/ "./src/component/skill.js":
+/***/ "./src/component/Skill.js":
 /*!********************************!*\
-  !*** ./src/component/skill.js ***!
+  !*** ./src/component/Skill.js ***!
   \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -3136,9 +3212,10 @@ var Listskill = /*#__PURE__*/function (_React$Component) {
   _createClass(Listskill, [{
     key: "render",
     value: function render() {
-      var listas = this.props.list;
-      var color = this.props.gcolor;
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, listas.map(function (a) {
+      var _this$props = this.props,
+          list = _this$props.list,
+          gcolor = _this$props.gcolor;
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, list.map(function (elemt) {
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
           key: Math.random() * 10000,
           className: "d-flex text-muted pt-3"
@@ -3151,10 +3228,10 @@ var Listskill = /*#__PURE__*/function (_React$Component) {
           "aria-label": "Placeholder: 32x32",
           preserveAspectRatio: "xMidYMid slice",
           focusable: "false"
-        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", null, "a.name"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("rect", {
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", null, elemt.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("rect", {
           width: "100%",
           height: "100%",
-          fill: color
+          fill: gcolor
         }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("text", {
           x: "50%",
           y: "50%",
@@ -3166,12 +3243,12 @@ var Listskill = /*#__PURE__*/function (_React$Component) {
           className: "d-flex justify-content-between"
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", {
           className: "text-gray-dark"
-        }, a.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+        }, elemt.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
           target: "_blank",
-          href: a.url
+          href: elemt.url
         }, "got to ...")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
           className: "d-block"
-        }, a.descrip)));
+        }, elemt.descrip)));
       }));
     }
   }]);
@@ -3263,6 +3340,8 @@ var Skill = /*#__PURE__*/function (_React$Component3) {
         _this3.setState({
           data: res.data
         });
+
+        console.log(_this3.state.data);
       })["catch"](function (error) {
         console.log(error);
       });
@@ -44073,12 +44152,12 @@ _global["default"]._babelPolyfill = true;
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var _component_resume__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./component/resume */ "./src/component/resume.js");
-/* harmony import */ var _component_experience__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./component/experience */ "./src/component/experience.js");
-/* harmony import */ var _component_skill__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./component/skill */ "./src/component/skill.js");
-/* harmony import */ var _component_description__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./component/description */ "./src/component/description.js");
-/* harmony import */ var _component_relate__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./component/relate */ "./src/component/relate.js");
-/* harmony import */ var _component_formEmail__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./component/formEmail */ "./src/component/formEmail.js");
+/* harmony import */ var _component_Resume__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./component/Resume */ "./src/component/Resume.js");
+/* harmony import */ var _component_Configurationforthis__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./component/Configurationforthis */ "./src/component/Configurationforthis.js");
+/* harmony import */ var _component_Skill__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./component/Skill */ "./src/component/Skill.js");
+/* harmony import */ var _component_Education__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./component/Education */ "./src/component/Education.js");
+/* harmony import */ var _component_Builtit__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./component/Builtit */ "./src/component/Builtit.js");
+/* harmony import */ var _component_ContactForm__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./component/ContactForm */ "./src/component/ContactForm.js");
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -44129,7 +44208,7 @@ var App = /*#__PURE__*/function (_React$Component) {
   _createClass(App, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_resume__WEBPACK_IMPORTED_MODULE_2__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_relate__WEBPACK_IMPORTED_MODULE_6__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_experience__WEBPACK_IMPORTED_MODULE_3__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_description__WEBPACK_IMPORTED_MODULE_5__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_skill__WEBPACK_IMPORTED_MODULE_4__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_formEmail__WEBPACK_IMPORTED_MODULE_7__.default, null))));
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_Resume__WEBPACK_IMPORTED_MODULE_2__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_Builtit__WEBPACK_IMPORTED_MODULE_6__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_Configurationforthis__WEBPACK_IMPORTED_MODULE_3__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_Education__WEBPACK_IMPORTED_MODULE_5__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_Skill__WEBPACK_IMPORTED_MODULE_4__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_ContactForm__WEBPACK_IMPORTED_MODULE_7__.default, null))));
     }
   }]);
 

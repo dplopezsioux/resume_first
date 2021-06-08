@@ -16,7 +16,7 @@ const FormEmail = () => {
           <span className="fs-1 text-light">Contact </span>
         </header>
         <div className="h-100 p-5 bg-light border rounded-3">
-          <form onSubmit={}>
+          <form>
             <div className="mb-3">
               <label className="form-label">Email address</label>
               <input
@@ -27,7 +27,7 @@ const FormEmail = () => {
               />
             </div>
             <div className="mb-3">
-              <label className="form-label">Example textarea</label>
+              <label className="form-label">Text</label>
               <textarea
                 className="form-control"
                 id="exampleFormControlTextarea1"

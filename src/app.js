@@ -3,12 +3,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 //component
-import Resume from "./component/resume";
-import Experience from "./component/experience";
-import Skill from "./component/skill";
-import Description from "./component/description";
-import Relate from "./component/relate";
-import FormEmail from "./component/formEmail";
+import Resume from "./component/Resume";
+import Configurationforthis from "./component/Configurationforthis";
+import Skill from "./component/Skill";
+import Education from "./component/Education";
+import Builtit from "./component/Builtit";
+import ContactForm from "./component/ContactForm";
 
 //css
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -21,11 +21,11 @@ class App extends React.Component {
         <div>
           <div>
             <Resume />
-            <Relate />
-            <Experience />
-            <Description />
+            <Builtit />
+            <Configurationforthis />
+            <Education />
             <Skill />
-            <FormEmail />
+            <ContactForm />
           </div>
         </div>
       </>

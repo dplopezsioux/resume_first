@@ -6,12 +6,11 @@ import axios from "axios";
 
 class Listskill extends React.Component {
   render() {
-    const listas = this.props.list;
-    const color = this.props.gcolor;
+    const { list, gcolor } = this.props;
 
     return (
       <div>
-        {listas.map((a) => {
+        {list.map((elemt) => {
           return (
             <div key={Math.random() * 10000} className="d-flex text-muted pt-3">
               <svg
@@ -24,19 +23,19 @@ class Listskill extends React.Component {
                 preserveAspectRatio="xMidYMid slice"
                 focusable="false"
               >
-                <title>a.name</title>
-                <rect width="100%" height="100%" fill={color}></rect>
+                <title>{elemt.name}</title>
+                <rect width="100%" height="100%" fill={gcolor}></rect>
                 <text x="50%" y="50%" fill="#007bff" dy=".3em"></text>
               </svg>
 
               <div className="pb-3 mb-0 small lh-sm  w-100">
                 <div className="d-flex justify-content-between">
-                  <strong className="text-gray-dark">{a.name}</strong>
-                  <a target="_blank" href={a.url}>
+                  <strong className="text-gray-dark">{elemt.name}</strong>
+                  <a target="_blank" href={elemt.url}>
                     got to ...
                   </a>
                 </div>
-                <span className="d-block">{a.descrip}</span>
+                <span className="d-block">{elemt.descrip}</span>
               </div>
             </div>
           );
@@ -52,9 +51,9 @@ class TablaSkill extends React.Component {
   };
 
   getRandomColor() {
-    var letters = "0123456789ABCDEF";
-    var color = "#";
-    for (var i = 0; i < 6; i++) {
+    const letters = "0123456789ABCDEF";
+    let color = "#";
+    for (let i = 0; i < 6; i++) {
       color += letters[Math.floor(Math.random() * 16)];
     }
     return color;
@@ -72,7 +71,6 @@ class TablaSkill extends React.Component {
               <h6 className="border-bottom pb-2 mb-0 text-uppercase">
                 {keyname}
               </h6>
-
               <Listskill list={props[keyname]} gcolor={this.getRandomColor()} />
             </div>
           );
@@ -93,6 +91,7 @@ class Skill extends React.Component {
       .get("http://localhost:3000/api/skill")
       .then((res) => {
         this.setState({ data: res.data });
+        console.log(this.state.data);
       })
       .catch(function (error) {
         console.log(error);
