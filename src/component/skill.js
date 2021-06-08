@@ -1,102 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
-
-const dataTest = {
-  tecnologies: [
-    {
-      name: "nodejs",
-      type: "Tecnologies",
-      url: "https://nodejs.org/en/",
-      descrip:
-        "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.",
-    },
-    {
-      name: "mySQL",
-      type: "Tecnologies",
-      url: "https://www.mysql.com/",
-      descrip: " 2021, Oracle Corporation and/or its affiliates",
-    },
-    {
-      name: "mongoDb",
-      type: "Tecnologies",
-      url: "https://www.mongodb.com/",
-      descrip:
-        "mongoDB is a general purpose, document-based, distributed database built for modern application developers",
-    },
-  ],
-  languages: [
-    {
-      name: "Javascript",
-      type: "languages",
-      url: "https://www.javascript.com/",
-      descrip:
-        "JavaScript.com is a resource built by the Pluralsight team for the JavaScript community.",
-    },
-    {
-      name: "Typescript",
-      type: "languages",
-      url: "https://www.javascript.com/",
-      descrip:
-        "JavaScript.com is a resource built by the Pluralsight team for the JavaScript community.",
-    },
-    {
-      name: "C#",
-      type: "languages",
-      url: "https://www.javascript.com/",
-      descrip:
-        "JavaScript.com is a resource built by the Pluralsight team for the JavaScript community.",
-    },
-    {
-      name: "C++",
-      type: "languages",
-      url: "https://www.javascript.com/",
-      descrip:
-        "JavaScript.com is a resource built by the Pluralsight team for the JavaScript community.",
-    },
-  ],
-  tools: [
-    {
-      name: "Github",
-      type: "Tools",
-      url: "https://www.javascript.com/",
-      descrip:
-        "JavaScript.com is a resource built by the Pluralsight team for the JavaScript community.",
-    },
-    {
-      name: "mongoDb",
-      type: "Tools",
-      url: "https://www.javascript.com/",
-      descrip:
-        "JavaScript.com is a resource built by the Pluralsight team for the JavaScript community.",
-    },
-    {
-      name: "MySql",
-      type: "Tools",
-      url: "https://www.javascript.com/",
-      descrip:
-        "JavaScript.com is a resource built by the Pluralsight team for the JavaScript community.",
-    },
-    {
-      name: "SqlServer",
-      type: "Tools",
-      url: "https://www.javascript.com/",
-      descrip:
-        "JavaScript.com is a resource built by the Pluralsight team for the JavaScript community.",
-    },
-  ],
-};
-
-//programacion
-// npm install --save-dev @iconify/react @iconify-icons/ion
 import { Icon } from "@iconify/react";
-
 import settingsSharp from "@iconify-icons/ion/settings-sharp";
+import axios from "axios";
 
 class Listskill extends React.Component {
   render() {
     const listas = this.props.list;
     const color = this.props.gcolor;
-    console.log(listas);
 
     return (
       <div>
@@ -153,7 +64,6 @@ class TablaSkill extends React.Component {
     const names = Object.keys(this.props.dataskill);
     const props = this.props.dataskill;
 
-    console.log(props);
     return (
       <div className="my-3 p-3 bg-light rounded shadow-sm">
         {names.map((keyname) => {
@@ -173,6 +83,21 @@ class TablaSkill extends React.Component {
 }
 
 class Skill extends React.Component {
+  state = {
+    data: {},
+  };
+
+  componentDidMount() {
+    axios
+      .get("http://localhost:3000/api/skill")
+      .then((res) => {
+        this.setState({ data: res.data });
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+  }
+
   render() {
     return (
       <div>
@@ -182,9 +107,11 @@ class Skill extends React.Component {
               <Icon icon={settingsSharp} width="50" height="50" />
               <span className="fs-4">Skills and Tools</span>
             </header>
-
             <div>
-              <TablaSkill dataskill={dataTest} key={Math.random() * 10000} />
+              <TablaSkill
+                dataskill={this.state.data}
+                key={Math.random() * 10000}
+              />
             </div>
           </div>
         </div>
