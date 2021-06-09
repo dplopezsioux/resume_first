@@ -3015,7 +3015,7 @@ var FormEmail = function FormEmail() {
     e.preventDefault(); //setEmailtosend("OLE");
 
     console.log("whats+", emailtosend, "+", menstosend);
-    axios__WEBPACK_IMPORTED_MODULE_3___default().get("http://localhost:3000/api/contact?email=".concat(emailtosend, "&mens=").concat(menstosend)).then(function (result) {
+    axios__WEBPACK_IMPORTED_MODULE_3___default().get("https://dpinformation/api/contact?email=".concat(emailtosend, "&mens=").concat(menstosend)).then(function (result) {
       return console.log(result);
     });
   }

@@ -29,7 +29,6 @@ app.set("view engine", "ejs");
 //
 //
 const nodemailer = require("nodemailer");
-const htmlMes = require("./email/email");
 //
 //
 //import Email
@@ -139,7 +138,4 @@ app.listen(app.get("port"), () => {
       "port"
     )}`
   );
-  console.log(app.get("emailUser"));
-  console.log(app.get("emailPass"));
-  //sendEmail("dplopez.sioux@hotmail.com", "Server is RUNING ON PORT");
 });

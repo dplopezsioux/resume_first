@@ -19,7 +19,7 @@ const FormEmail = () => {
     console.log("whats+", emailtosend, "+", menstosend);
     axios
       .get(
-        `http://localhost:3000/api/contact?email=${emailtosend}&mens=${menstosend}`
+        `https://dpinformation/api/contact?email=${emailtosend}&mens=${menstosend}`
       )
       .then((result) => console.log(result));
   }
