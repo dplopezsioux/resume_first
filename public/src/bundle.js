@@ -3385,7 +3385,8 @@ var Skill = /*#__PURE__*/function (_React$Component3) {
     value: function componentDidMount() {
       var _this3 = this;
 
-      axios__WEBPACK_IMPORTED_MODULE_4___default().get("http://localhost:3000/api/skill").then(function (res) {
+      axios__WEBPACK_IMPORTED_MODULE_4___default().get("https://dpinformation.me/api/skill") //.get("http://localhost:3000/api/skill")
+      .then(function (res) {
         _this3.setState({
           data: res.data
         });
