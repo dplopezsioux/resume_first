@@ -1,4 +1,4 @@
-const dataTest = {
+const skillData = {
   tecnologies: [
     {
       name: "nodejs",
@@ -83,4 +83,4 @@ const dataTest = {
   ],
 };
 
-module.exports = dataTest;
+module.exports = skillData;

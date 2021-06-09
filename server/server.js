@@ -1,6 +1,5 @@
 "use strict";
 const express = require("express");
-const dataTest = require("./loadskill");
 const app = express();
 require("dotenv").config();
 
@@ -34,7 +33,7 @@ const nodemailer = require("nodemailer");
 //import Email
 //
 //
-require("./email/email");
+const htmlMes = require("./email/email");
 
 // async..await is not allowed in global scope, must use a wrapper
 async function sendEmail(email, mens) {
@@ -99,16 +98,14 @@ app.get("/api", (req, res) => {
 //load data
 //
 //
-//giipngutnbnuzerj
-Port = 3000;
 //
-//sent data to api/skill
+const dataS = require("./skill");
 //
 //
 //
 
 app.get("/api/skill", (req, res) => {
-  return res.send(data);
+  return res.send(dataS);
 });
 
 //
