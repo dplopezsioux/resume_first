@@ -99,13 +99,8 @@ app.get("/api", (req, res) => {
 //load data
 //
 //
-//
-
-require("./loadskill");
-const data = dataTest;
-
-//
-//
+//giipngutnbnuzerj
+Port = 3000;
 //
 //sent data to api/skill
 //
@@ -134,8 +129,8 @@ app.get("/api/contact", (req, res) => {
 
 app.listen(app.get("port"), () => {
   console.log(
-    `Server is runing on port: ${app.get("port")}--> http://localhost:${app.get(
-      "port"
+    `Server is runing on port: ${app.get("port")}
     )}`
   );
+  console.log(app.get("emailUser"), app.get("emailUser"));
 });
