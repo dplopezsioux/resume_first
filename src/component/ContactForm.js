@@ -4,10 +4,34 @@ import React from "react";
 // npm install --save-dev @iconify/react @iconify-icons/ant-design
 import { Icon } from "@iconify/react";
 import messageTwotone from "@iconify-icons/ant-design/message-twotone";
+import { useState } from "react";
+import axios from "axios";
 
 //////
 
 const FormEmail = () => {
+  let [emailtosend, setEmailtosend] = useState("Email to send");
+  let [menstosend, setMenstosend] = useState("Mensaje to send");
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    //setEmailtosend("OLE");
+    console.log("whats+", emailtosend, "+", menstosend);
+    axios
+      .get(
+        `http://localhost:3000/api/contact?email=${emailtosend}&mens=${menstosend}`
+      )
+      .then((result) => console.log(result));
+  }
+
+  function updateEmail(e) {
+    setEmailtosend(e.target.value);
+    console.log(e.target.value);
+  }
+  function updateMens(e) {
+    setMenstosend(e.target.value);
+  }
+
   return (
     <div className="p-5 mt-5 bg-dark">
       <div className="container">
@@ -16,7 +40,7 @@ const FormEmail = () => {
           <span className="fs-1 text-light">Contact </span>
         </header>
         <div className="h-100 p-5 bg-light border rounded-3">
-          <form>
+          <form onSubmit={handleSubmit}>
             <div className="mb-3">
               <label className="form-label">Email address</label>
               <input
@@ -24,6 +48,7 @@ const FormEmail = () => {
                 className="form-control"
                 id="exampleFormControlInput1"
                 placeholder="name@example.com"
+                onChange={updateEmail}
               />
             </div>
             <div className="mb-3">
@@ -32,11 +57,13 @@ const FormEmail = () => {
                 className="form-control"
                 id="exampleFormControlTextarea1"
                 rows="3"
+                onChange={updateMens}
+                placeholder="message to send ..."
               ></textarea>
             </div>
 
             <div className="mb-3">
-              <button type="button" className="btn btn-secondary mt-5">
+              <button type="submit" className="btn btn-secondary mt-5">
                 Send!
               </button>
             </div>

@@ -1,17 +1,74 @@
-const { json } = require("body-parser");
+"use strict";
 const express = require("express");
 const dataTest = require("./loadskill");
 const app = express();
-//
-//
+require("dotenv").config();
 
+//
+//
+//Config global vari and json urlencoded
+//
+//
+app.set("port", process.env.Port || 3000);
+app.set("emailUser", process.env.emailUser || "email@adress");
+app.set("emailPass", process.env.emailPass || "single-password-aplication");
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 //
 //
-
+//
+//config html and public folder
+//
+//
+//
 app.use(express.static("public"));
 app.set("view engine", "ejs");
+//
+//
+//email config
+//
+//
+const nodemailer = require("nodemailer");
+const htmlMes = require("./email/email");
+//
+//
+//import Email
+//
+//
+require("./email/email");
+
+// async..await is not allowed in global scope, must use a wrapper
+async function sendEmail(email, mens) {
+  // create reusable transporter object using the default SMTP transport
+  let transporter = nodemailer.createTransport({
+    host: "smtp.gmail.com",
+    port: 465,
+    secure: true, // true for 465, false for other ports
+    auth: {
+      user: app.get("emailUser"), // generated ethereal user
+      pass: app.get("emailPass"), // generated ethereal password
+    },
+  });
+
+  // send mail with defined transport object
+  let info = await transporter.sendMail({
+    from: '"Fred Foo 👻" <dplopez.sioux@gmail.com>', // sender address
+    to: `dplopez.sioux@icloud.com, ${email}`, // list of receivers
+    subject: "Hi! Confiormation email", // Subject line
+    //text: "Hello world?", // plain text body
+    html: htmlMes(email, mens), // html body
+  });
+
+  console.log("Message sent: %s", info.messageId);
+  // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
+
+  // Preview only available when sending through an Ethereal account
+  console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
+  // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
+}
+
+//sendEmail().catch(console.error);
+
 //
 //
 //
@@ -27,24 +84,6 @@ app.get("/", function (req, res) {
 //
 //
 
-const sendEmail = (email, mens) => {
-  return "OK";
-};
-
-app.get("/contact", (req, res) => {
-  console.log(req.query.email);
-  console.log(req.query.mens);
-
-  let email = req.query.email;
-  let mens = req.query.mens;
-
-  let response = sendEmail(email, mens);
-
-  res.send(response);
-
-  res.end();
-});
-
 //
 //
 //
@@ -58,18 +97,26 @@ app.get("/api", (req, res) => {
 //
 //
 //
-//
 //load data
+//
+//
+//
+
 require("./loadskill");
 const data = dataTest;
+
 //
 //
 //
+//sent data to api/skill
 //
-//sent to api/skill
+//
+//
+
 app.get("/api/skill", (req, res) => {
   return res.send(data);
 });
+
 //
 //
 //
@@ -77,12 +124,22 @@ app.get("/api/skill", (req, res) => {
 //
 //
 //
-//
-//
-//localhost 3000
+
 app.get("/api/contact", (req, res) => {
-  let values = req.body;
-  console.log(values);
+  let email = req.query.email;
+  let mens = req.query.mens;
+  console.log(email, mens);
+  sendEmail(email, mens);
+  res.end();
 });
 
-app.listen(3000);
+app.listen(app.get("port"), () => {
+  console.log(
+    `Server is runing on port: ${app.get("port")}--> http://localhost:${app.get(
+      "port"
+    )}`
+  );
+  console.log(app.get("emailUser"));
+  console.log(app.get("emailPass"));
+  //sendEmail("dplopez.sioux@hotmail.com", "Server is RUNING ON PORT");
+});
