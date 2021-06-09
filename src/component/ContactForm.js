@@ -10,8 +10,8 @@ import axios from "axios";
 //////
 
 const FormEmail = () => {
-  let [emailtosend, setEmailtosend] = useState("Email to send");
-  let [menstosend, setMenstosend] = useState("Mensaje to send");
+  let [emailtosend, setEmailtosend] = useState("");
+  let [menstosend, setMenstosend] = useState("");
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -19,9 +19,15 @@ const FormEmail = () => {
     console.log("whats+", emailtosend, "+", menstosend);
     axios
       .get(
-        `https://dpinformation/api/contact?email=${emailtosend}&mens=${menstosend}`
+        `https://dpinformation.me/api/contact?email=${emailtosend}&mens=${menstosend}`
       )
-      .then((result) => console.log(result));
+      .then((result) => {
+        console.log(result);
+        setEmailtosend("");
+        setMenstosend("");
+      });
+    setEmailtosend("");
+    setMenstosend("");
   }
 
   function updateEmail(e) {
@@ -45,6 +51,7 @@ const FormEmail = () => {
               <label className="form-label">Email address</label>
               <input
                 type="email"
+                value={emailtosend}
                 className="form-control"
                 id="exampleFormControlInput1"
                 placeholder="name@example.com"
@@ -56,6 +63,7 @@ const FormEmail = () => {
               <textarea
                 className="form-control"
                 id="exampleFormControlTextarea1"
+                value={menstosend}
                 rows="3"
                 onChange={updateMens}
                 placeholder="message to send ..."

@@ -3001,12 +3001,12 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
  //////
 
 var FormEmail = function FormEmail() {
-  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)("Email to send"),
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(""),
       _useState2 = _slicedToArray(_useState, 2),
       emailtosend = _useState2[0],
       setEmailtosend = _useState2[1];
 
-  var _useState3 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)("Mensaje to send"),
+  var _useState3 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(""),
       _useState4 = _slicedToArray(_useState3, 2),
       menstosend = _useState4[0],
       setMenstosend = _useState4[1];
@@ -3015,9 +3015,13 @@ var FormEmail = function FormEmail() {
     e.preventDefault(); //setEmailtosend("OLE");
 
     console.log("whats+", emailtosend, "+", menstosend);
-    axios__WEBPACK_IMPORTED_MODULE_3___default().get("https://dpinformation/api/contact?email=".concat(emailtosend, "&mens=").concat(menstosend)).then(function (result) {
-      return console.log(result);
+    axios__WEBPACK_IMPORTED_MODULE_3___default().get("https://dpinformation.me/api/contact?email=".concat(emailtosend, "&mens=").concat(menstosend)).then(function (result) {
+      console.log(result);
+      setEmailtosend("");
+      setMenstosend("");
     });
+    setEmailtosend("");
+    setMenstosend("");
   }
 
   function updateEmail(e) {
@@ -3052,6 +3056,7 @@ var FormEmail = function FormEmail() {
     className: "form-label"
   }, "Email address"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
     type: "email",
+    value: emailtosend,
     className: "form-control",
     id: "exampleFormControlInput1",
     placeholder: "name@example.com",
@@ -3063,6 +3068,7 @@ var FormEmail = function FormEmail() {
   }, "Text"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("textarea", {
     className: "form-control",
     id: "exampleFormControlTextarea1",
+    value: menstosend,
     rows: "3",
     onChange: updateMens,
     placeholder: "message to send ..."
