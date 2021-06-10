@@ -96,7 +96,7 @@ async function sendEmail(email, mens) {
   let info = await transporter.sendMail({
     from: "<dplopez.sioux@gmail.com>",
     to: `dplopez.sioux@icloud.com, ${email}`,
-    subject: "Hi! Confiormation email",
+    subject: "Hi! Confirmation email from dpinformation.me",
     html: htmlMes(email, mens), // html body from email funcion
   });
 }

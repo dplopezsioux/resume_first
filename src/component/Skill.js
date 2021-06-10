@@ -64,7 +64,7 @@ class TablaSkill extends React.Component {
     const props = this.props.dataskill;
 
     return (
-      <div className="my-3 p-3 bg-light rounded shadow-sm">
+      <div className="my-3 p-3 bg-light rounded">
         {names.map((keyname) => {
           return (
             <div key={keyname}>
@@ -100,13 +100,13 @@ class Skill extends React.Component {
   render() {
     return (
       <div>
-        <div className="bg-white p-3 mt-5 mb-3">
-          <div className="container ">
+        <div className="bg-white p-1 mt-1 mb-3">
+          <div className="container">
             <header className="pb-3 mt-5 mb-4 border-bottom">
               <Icon icon={settingsSharp} width="50" height="50" />
-              <span className="fs-4">Skills and Tools</span>
+              <span className="fs-2 m-2">Skills and Tools</span>
             </header>
-            <div>
+            <div className="container bg-light p-5">
               <TablaSkill
                 dataskill={this.state.data}
                 key={Math.random() * 10000}

@@ -82,6 +82,27 @@ var data = {
 
 /***/ }),
 
+/***/ "./node_modules/@iconify-icons/cil/school.js":
+/*!***************************************************!*\
+  !*** ./node_modules/@iconify-icons/cil/school.js ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var data = {
+	"body": "<path fill=\"currentColor\" d=\"M368 350.643l-112 63l-112-63v-66.562l-32-17.778v103.054l144 81l144-81V266.303l-32 17.778v66.562z\"/><path fill=\"currentColor\" d=\"M256 45.977L32 162.125v27.734L256 314.3l192-106.663V296h32V162.125zm160 142.831l-32 17.777L256 277.7l-128-71.115l-32-17.777l-22.179-12.322L256 82.023l182.179 94.463z\"/>",
+	"width": 512,
+	"height": 512
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (data);
+
+
+/***/ }),
+
 /***/ "./node_modules/@iconify-icons/flat-color-icons/data-encryption.js":
 /*!*************************************************************************!*\
   !*** ./node_modules/@iconify-icons/flat-color-icons/data-encryption.js ***!
@@ -116,6 +137,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 var data = {
 	"body": "<path d=\"M86.76 255a9.89 9.89 0 0 0 4.87-1.29a9.82 9.82 0 0 0 3.65-13.43c-16.46-28.56-17.81-52.12-7.45-70c14.26-24.57 53.61-33.65 105.27-24.29a9.86 9.86 0 0 0 11.45-7.9a9.84 9.84 0 0 0-7.93-11.44c-29.19-5.28-56-5.18-77.39.3c-22.3 5.71-39 17.28-48.45 33.48c-14 24.19-12.7 54.73 7.42 89.62a9.85 9.85 0 0 0 8.56 4.95z\" fill=\"currentColor\"/><path d=\"M361.61 143.73c32.24.42 52.61 9.31 62.79 26.86c14.21 24.48 2.52 62.81-31.27 102.52a9.82 9.82 0 0 0 7.51 16.18a9.88 9.88 0 0 0 7.52-3.46c19.12-22.47 32.35-45.54 38.25-66.71c6.14-22 4.43-42.21-5-58.38c-13.8-23.78-40.13-36.15-79.59-36.67h-.14a9.83 9.83 0 0 0-.12 19.66z\" fill=\"currentColor\"/><path d=\"M326.47 414.89a9.88 9.88 0 0 0-13.5 3.35c-16.41 27.15-36.57 42.1-56.77 42.1c-28.49 0-56-29.31-73.73-78.42a9.87 9.87 0 0 0-12.59-5.92a9.83 9.83 0 0 0-6 12.58c10 27.77 23.47 50.75 39 66.46c16.11 16.34 34.55 25 53.32 25c27.38 0 53.54-18.33 73.65-51.61a9.81 9.81 0 0 0-3.38-13.5z\" fill=\"currentColor\"/><path d=\"M431.7 338.54a32.14 32.14 0 0 0-29.9 44.33c-41.8 19.5-119.8 4.79-191.87-36.62c-32.91-18.9-62.16-41.86-84.6-66.39a9.9 9.9 0 0 0-13.91-.65a9.8 9.8 0 0 0-.65 13.9c23.79 26 54.68 50.28 89.33 70.18c40.28 23.13 82.27 38.63 121.43 44.81a225.54 225.54 0 0 0 35 2.91c23.12 0 43-4.3 58.51-12.79a32.2 32.2 0 1 0 16.7-59.68zm0 44.66a12.6 12.6 0 0 1-7.82-2.72a10 10 0 0 0-2.2-2.21a12.61 12.61 0 1 1 10 4.93z\" fill=\"currentColor\"/><path d=\"M82.09 338.59c.57-21.26 12.41-47 33.68-73.16c23.19-28.45 56.69-56 94.34-77.65c33.25-19.1 65.2-31.9 98.07-38.91a9.83 9.83 0 1 0-4.12-19.22c-34.85 7.43-68.78 21-103.79 41.09C116.09 219.09 59.9 289.88 62.46 343.9a32.32 32.32 0 1 0 19.63-5.31zM80.3 383.2a12.5 12.5 0 1 1 12.59-12.5a12.56 12.56 0 0 1-12.59 12.5z\" fill=\"currentColor\"/><path d=\"M256.2 96.32a32.23 32.23 0 0 0 26.53-13.81c17.89 11.69 34 35 45.81 66.12c13 34.39 19.84 75.38 19.84 118.54c0 37.18-5.19 72.35-15 103.6a9.72 9.72 0 0 0 .66 7.49a9.82 9.82 0 0 0 5.8 4.84a9.89 9.89 0 0 0 12.34-6.44c10.42-33.14 15.93-70.34 15.93-109.49c0-47.17-7.77-91.77-22.47-129c-14.41-36.48-34.13-62.4-57.14-75.16a32.3 32.3 0 1 0-32.3 33.31zm0-44.66a12.5 12.5 0 1 1-12.59 12.5a12.56 12.56 0 0 1 12.59-12.5z\" fill=\"currentColor\"/><path d=\"M251 243.36a24.35 24.35 0 0 0 5.16 48.16a24.68 24.68 0 0 0 5.16-.55A24.36 24.36 0 1 0 251 243.36z\" fill=\"currentColor\"/>",
+	"width": 512,
+	"height": 512
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (data);
+
+
+/***/ }),
+
+/***/ "./node_modules/@iconify-icons/ion/logo-ionitron.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/@iconify-icons/ion/logo-ionitron.js ***!
+  \**********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var data = {
+	"body": "<path d=\"M468.41 269.19c-2.64-33.39-11.76-58-31.44-57.39a1 1 0 0 0-.92 1.37c5.11 12.59 9.68 36.9 9.17 58.07a1 1 0 0 1-2 .08c-2.19-21.21-7.1-41.19-16.22-59.43a186.69 186.69 0 0 0-348.91 41a4 4 0 0 1-3.33 3.11l-8.65 1.22c-17.2 2.4-26.9 34.9-21.7 72.5s23.5 66.2 40.7 63.8l13.24-1.85a4 4 0 0 1 3.93 1.84a186.71 186.71 0 0 0 339-56.07a4 4 0 0 1 3.68-3.08l4.4-.24c15.15-2.53 21.75-31.23 19.05-64.93zM94.5 270.42a1 1 0 0 1 1.59-1.19c9.63 10 20.25 27.65 23.32 49.86c3.24 23.05-2.24 45.2-9.13 57.87a1 1 0 0 1-1.84-.73c4.07-14.44 5.16-33.83 2.27-54.74c-2.8-20.32-8.71-38.27-16.21-51.07zm178.77 109.79a15.53 15.53 0 0 1-15.41-13.83a15.48 15.48 0 1 1 15.41 13.83zm81.84-4.72a15.37 15.37 0 1 1 14.6-16.2a15.43 15.43 0 0 1-14.6 16.2z\" fill=\"currentColor\"/><path d=\"M165.51 70a.31.31 0 0 1 .1.2c.1.2.2.3.3.5v.1a5.78 5.78 0 0 0 2.3 2.7c2 1.5 5 2.4 8.6 3a63.69 63.69 0 0 0 11.9.5a28.25 28.25 0 0 0 2.9-.2c-.4-.4-.8-.9-1.2-1.3h-1.3a52 52 0 0 1-11.6-.9a19.71 19.71 0 0 1-8.4-3.4a9.24 9.24 0 0 1-1.4-1.4a4.48 4.48 0 0 1 0-2.3c.5-2.3 2.4-4.8 5.5-7.4a57.25 57.25 0 0 1 10.9-7c.9-.4 1.7-.9 2.6-1.3c.1-.1.3-.1.5-.2a24.69 24.69 0 0 0-.2 10.5c2.3 11.9 11.6 20.3 23.2 20.6l4 24.3l12.7-3l-4-23.3c10.8-4.6 16.3-16.1 14-28a25.8 25.8 0 0 0-3.9-9.5c-5.3-.8-15.6-.8-29.2 2.1c1.1-.3 2.1-.7 3.2-1a135.27 135.27 0 0 1 21.5-4.2c.6-.1 1.2-.1 1.8-.2l3.5-.3h.6a61.83 61.83 0 0 1 10.8.3a29 29 0 0 1 6.1 1.4a5.71 5.71 0 0 0-.9 3.2a6.12 6.12 0 0 0 4.3 5.8a25.53 25.53 0 0 1-2.1 2.8a26 26 0 0 1-2.9 2.8c-1.1.9-2.3 1.8-3.5 2.7l-6.5 3.8l-.3 1.5a.35.35 0 0 0 .2-.1l8.4-4.7c1.2-.8 2.4-1.6 3.4-2.4a29.15 29.15 0 0 0 3.2-2.8a29.86 29.86 0 0 0 2.4-2.8l.3-.6a6.14 6.14 0 0 0 5.4-6a6.06 6.06 0 0 0-6.1-6.1a6.81 6.81 0 0 0-2.8.7a24.6 24.6 0 0 0-8.2-2.7a63.48 63.48 0 0 0-15.5-.6a14.92 14.92 0 0 0-2.1.2a13.55 13.55 0 0 1-2 .2a25.15 25.15 0 0 0-18.7-3.7a25.86 25.86 0 0 0-17.8 13c-1.3.5-2.6 1.1-3.8 1.7c-.7.3-1.3.6-2 .9a60.75 60.75 0 0 0-13.9 9.1c-3.1 2.9-4.9 5.7-5.3 8.3a6.14 6.14 0 0 0 .7 4a2.19 2.19 0 0 1 .3.5z\" fill=\"currentColor\"/>",
 	"width": 512,
 	"height": 512
 };
@@ -3112,43 +3154,40 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _iconify_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @iconify/react */ "./node_modules/@iconify/react/dist/icon.esm.js");
-/* harmony import */ var _iconify_icons_ion_logo_electron__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @iconify-icons/ion/logo-electron */ "./node_modules/@iconify-icons/ion/logo-electron.js");
+/* harmony import */ var _iconify_icons_cil_school__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @iconify-icons/cil/school */ "./node_modules/@iconify-icons/cil/school.js");
+/* harmony import */ var _iconify_icons_ion_logo_electron__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @iconify-icons/ion/logo-electron */ "./node_modules/@iconify-icons/ion/logo-electron.js");
+/* harmony import */ var _iconify_icons_ion_logo_ionitron__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @iconify-icons/ion/logo-ionitron */ "./node_modules/@iconify-icons/ion/logo-ionitron.js");
  //icos
-//import { Icon } from "@iconify/react";
-//import logoElectron from "@iconify-icons/ion/logo-electron";
-// npm install --save-dev @iconify/react @iconify-icons/ion
+
+
 
 
 
 
 var Description = function Description() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container mt-5 py-4"
+    className: "container mt-5"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("header", {
     className: "pb-3 mb-4 border-bottom"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_1__.Icon, {
-    icon: _iconify_icons_ion_logo_electron__WEBPACK_IMPORTED_MODULE_2__.default,
+    icon: _iconify_icons_ion_logo_electron__WEBPACK_IMPORTED_MODULE_3__.default,
     width: "50",
     height: "50"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "fs-4"
-  }, "Education & certification")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "p-5 mb-4 bg-light border rounded-3"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container-fluid py-5"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
-    className: "display-5 fw-bold"
-  }, "Education"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "col-md-8 fs-4"
-  }, "University of Pennsylvania Degree Name Computer Science Essentials for Software graduation 2020 \u2013 2022"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "col-md-8 fs-4"
-  }, "Universidad Central Marta Abreu\u200B de Las Villas Degree 2009 \u2013 2014"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "fs-2 m-2"
+  }, "Education & Certification")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row align-items-md-stretch"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "fw-bold fs-5 py-4"
+  }, "Certification"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "col-md-6  mb-5"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "h-100 p-5 bg-light border rounded-3"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "Programming for the Web with JavaScript"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Valid Certificate ID e9e6073259374dda9d8fb0c0298bc3e8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_1__.Icon, {
+    icon: _iconify_icons_ion_logo_ionitron__WEBPACK_IMPORTED_MODULE_4__.default,
+    width: "25",
+    height: "25"
+  }), "Programming for the Web with JavaScript"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Valid Certificate ID e9e6073259374dda9d8fb0c0298bc3e8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "https://courses.edx.org/certificates/e9e6073259374dda9d8fb0c0298bc3e8",
     className: "btn btn-primary",
     target: "_blank",
@@ -3157,12 +3196,34 @@ var Description = function Description() {
     className: "col-md-6  mb-5"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "h-100 p-5 bg-light border rounded-3"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, " Algorithms and Data Structures in C#"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Valid Certificate ID cff61b6bf4a84293beb011510f762d3f"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_1__.Icon, {
+    icon: _iconify_icons_ion_logo_ionitron__WEBPACK_IMPORTED_MODULE_4__.default,
+    width: "25",
+    height: "25"
+  }), "Algorithms and Data Structures in C#"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Valid Certificate ID cff61b6bf4a84293beb011510f762d3f"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "https://courses.edx.org/certificates/cff61b6bf4a84293beb011510f762d3f",
     className: "btn btn-primary",
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "Go to validation")))));
+  }, "Go to validation")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "fw-bold fs-3 py-4"
+  }, "Education"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "mb-4 bg-light border rounded-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "container-fluid p-5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "col-md-8 fs-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_1__.Icon, {
+    icon: _iconify_icons_cil_school__WEBPACK_IMPORTED_MODULE_2__.default,
+    width: "50",
+    height: "50"
+  }), "\"University of Pennsylvania\""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p1", null, "Computer Science Essentials for Software (2020 \u2013 2022)")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "col-md-8 fs-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_1__.Icon, {
+    icon: _iconify_icons_cil_school__WEBPACK_IMPORTED_MODULE_2__.default,
+    width: "50",
+    height: "50"
+  }), "\"Central University of Las Villas\""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p1", null, "Electronics and Communication Engineering - Computer Networking(2009 \u2013 2014)"))))));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Description);
@@ -3357,7 +3418,7 @@ var TablaSkill = /*#__PURE__*/function (_React$Component2) {
       var names = Object.keys(this.props.dataskill);
       var props = this.props.dataskill;
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "my-3 p-3 bg-light rounded shadow-sm"
+        className: "my-3 p-3 bg-light rounded"
       }, names.map(function (keyname) {
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
           key: keyname
@@ -3420,9 +3481,9 @@ var Skill = /*#__PURE__*/function (_React$Component3) {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "bg-white p-3 mt-5 mb-3"
+        className: "bg-white p-1 mt-1 mb-3"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "container "
+        className: "container"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("header", {
         className: "pb-3 mt-5 mb-4 border-bottom"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_2__.Icon, {
@@ -3430,8 +3491,10 @@ var Skill = /*#__PURE__*/function (_React$Component3) {
         width: "50",
         height: "50"
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-        className: "fs-4"
-      }, "Skills and Tools")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(TablaSkill, {
+        className: "fs-2 m-2"
+      }, "Skills and Tools")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+        className: "container bg-light p-5"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(TablaSkill, {
         dataskill: this.state.data,
         key: Math.random() * 10000
       })))));

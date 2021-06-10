@@ -972,6 +972,11 @@
   "resolved" "https://registry.npmjs.org/@iconify-icons/bi/-/bi-1.1.5.tgz"
   "version" "1.1.5"
 
+"@iconify-icons/cil@^1.1.0":
+  "integrity" "sha512-6cNpsk+RpgfUMAF/RjkxckNt5ASU8MpXlGgUFDvv9h5lq2U4G1UngMTSP3DftOqg33NlYs0Jb8tokf3AJBea/Q=="
+  "resolved" "https://registry.npmjs.org/@iconify-icons/cil/-/cil-1.1.0.tgz"
+  "version" "1.1.0"
+
 "@iconify-icons/flat-color-icons@^1.1.0":
   "integrity" "sha512-tniSR0t1e3IA4QJwMC4VU6hmDcd0OouyUb8Q3Qd4x59SIj3ChELTdCYoMHMxPmERapG06D06MZCh032YybfiiQ=="
   "resolved" "https://registry.npmjs.org/@iconify-icons/flat-color-icons/-/flat-color-icons-1.1.0.tgz"
