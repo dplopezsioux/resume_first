@@ -3016,7 +3016,6 @@ var FormEmail = function FormEmail() {
 
     console.log("whats+", emailtosend, "+", menstosend);
     axios__WEBPACK_IMPORTED_MODULE_3___default().get("https://dpinformation.me/api/contact?email=".concat(emailtosend, "&mens=").concat(menstosend)).then(function (result) {
-      console.log(result);
       setEmailtosend("");
       setMenstosend("");
     });
@@ -3026,7 +3025,6 @@ var FormEmail = function FormEmail() {
 
   function updateEmail(e) {
     setEmailtosend(e.target.value);
-    console.log(e.target.value);
   }
 
   function updateMens(e) {
@@ -3391,15 +3389,14 @@ var Skill = /*#__PURE__*/function (_React$Component3) {
     value: function componentDidMount() {
       var _this3 = this;
 
-      axios__WEBPACK_IMPORTED_MODULE_4___default().get("https://dpinformation.me/api/skill") //.get("http://localhost:3000/api/skill")
-      .then(function (res) {
+      axios__WEBPACK_IMPORTED_MODULE_4___default().get("https://dpinformation.me/api/skill").then(function (res) {
         _this3.setState({
           data: res.data
         });
 
-        console.log(_this3.state.data);
+        console.log("this.state.data", res.data);
       })["catch"](function (error) {
-        console.log(error);
+        console.log("error->>", error);
       });
     }
   }, {

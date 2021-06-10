@@ -2,6 +2,7 @@
 const express = require("express");
 const app = express();
 require("dotenv").config();
+const cors = require("cors");
 
 //
 //
@@ -13,6 +14,7 @@ app.set("emailUser", process.env.emailUser || "email@adress");
 app.set("emailPass", process.env.emailPass || "single-password-aplication");
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(cors());
 //
 //
 //

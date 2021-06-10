@@ -22,7 +22,6 @@ const FormEmail = () => {
         `https://dpinformation.me/api/contact?email=${emailtosend}&mens=${menstosend}`
       )
       .then((result) => {
-        console.log(result);
         setEmailtosend("");
         setMenstosend("");
       });
@@ -32,7 +31,6 @@ const FormEmail = () => {
 
   function updateEmail(e) {
     setEmailtosend(e.target.value);
-    console.log(e.target.value);
   }
   function updateMens(e) {
     setMenstosend(e.target.value);
