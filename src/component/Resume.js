@@ -33,13 +33,10 @@ const Resume = () => {
               situations that require it, for the benefit of the company, in
               search of solutions.
             </p>
-            <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <button
-                type="button"
-                className="btn btn-primary btn-lg px-4 gap-3"
-              >
+            <div className="button d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <div type="button" className="btn btn-primary btn-lg px-4 gap-3">
                 Email
-              </button>
+              </div>
             </div>
           </div>
         </div>

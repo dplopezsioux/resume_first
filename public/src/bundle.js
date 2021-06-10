@@ -3270,8 +3270,8 @@ var Resume = function Resume() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "lead mb-4"
   }, "My professional goals are in line with the needs of evolving and improving within the company where I develop my professional work. I am committed to maintaining professionalism and creating innovative programs. I consider myself a man who takes risks in situations that require it, for the benefit of the company, in search of solutions."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "d-grid gap-2 d-sm-flex justify-content-sm-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    className: "button d-grid gap-2 d-sm-flex justify-content-sm-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     type: "button",
     className: "btn btn-primary btn-lg px-4 gap-3"
   }, "Email"))))));
