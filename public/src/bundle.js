@@ -3011,16 +3011,27 @@ var FormEmail = function FormEmail() {
       menstosend = _useState4[0],
       setMenstosend = _useState4[1];
 
-  function handleSubmit(e) {
-    e.preventDefault(); //setEmailtosend("OLE");
+  var _useState5 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(""),
+      _useState6 = _slicedToArray(_useState5, 2),
+      stateContact = _useState6[0],
+      setStateContact = _useState6[1];
 
-    console.log("whats+", emailtosend, "+", menstosend);
+  function notification() {
+    setStateContact("Sent.");
+    setTimeout(function () {
+      setStateContact("");
+    }, 3000);
+  }
+
+  function handleSubmit(e) {
+    e.preventDefault();
     axios__WEBPACK_IMPORTED_MODULE_3___default().get("https://dpinformation.me/api/contact?email=".concat(emailtosend, "&mens=").concat(menstosend)).then(function (result) {
       setEmailtosend("");
       setMenstosend("");
     });
     setEmailtosend("");
     setMenstosend("");
+    notification();
   }
 
   function updateEmail(e) {
@@ -3058,7 +3069,8 @@ var FormEmail = function FormEmail() {
     className: "form-control",
     id: "exampleFormControlInput1",
     placeholder: "name@example.com",
-    onChange: updateEmail
+    onChange: updateEmail,
+    required: true
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "mb-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
@@ -3069,13 +3081,18 @@ var FormEmail = function FormEmail() {
     value: menstosend,
     rows: "3",
     onChange: updateMens,
-    placeholder: "message to send ..."
+    placeholder: "message to send ...",
+    required: true
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "mb-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "p-0"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
     type: "submit",
-    className: "btn btn-secondary mt-5"
-  }, "Send!"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", null, "This is a private Message"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Your personal information, such as email or the data you send in message, is private and will not be disclosed!"))));
+    className: "btn btn-secondary mt-0"
+  }, "Send!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
+    className: "m-2 text-success"
+  }, stateContact)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", null, "This is a private Message"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Your personal information, such as email or the data you send in message, is private and will not be disclosed!"))));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (FormEmail);
@@ -3343,7 +3360,7 @@ var TablaSkill = /*#__PURE__*/function (_React$Component2) {
         className: "my-3 p-3 bg-light rounded shadow-sm"
       }, names.map(function (keyname) {
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-          key: Math.random() * 10000
+          key: keyname
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", {
           className: "border-bottom pb-2 mb-0 text-uppercase"
         }, keyname), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Listskill, {

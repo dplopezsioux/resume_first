@@ -6,7 +6,7 @@ const cors = require("cors");
 
 //
 //
-//Config global vari and json urlencoded
+//      Config global vari,json urlencoded, cors
 //
 //
 app.set("port", process.env.Port || 3000);
@@ -18,7 +18,7 @@ app.use(cors());
 //
 //
 //
-//config html and public folder
+//      config html and public folder
 //
 //
 //
@@ -26,78 +26,16 @@ app.use(express.static("public"));
 app.set("view engine", "ejs");
 //
 //
-//email config
+//     render front page!
 //
 //
-const nodemailer = require("nodemailer");
-//
-//
-//import Email
-//
-//
-const htmlMes = require("./email/email");
-
-// async..await is not allowed in global scope, must use a wrapper
-async function sendEmail(email, mens) {
-  // create reusable transporter object using the default SMTP transport
-  let transporter = nodemailer.createTransport({
-    host: "smtp.gmail.com",
-    port: 465,
-    secure: true, // true for 465, false for other ports
-    auth: {
-      user: app.get("emailUser"), // generated ethereal user
-      pass: app.get("emailPass"), // generated ethereal password
-    },
-  });
-
-  // send mail with defined transport object
-  let info = await transporter.sendMail({
-    from: '"Fred Foo 👻" <dplopez.sioux@gmail.com>', // sender address
-    to: `dplopez.sioux@icloud.com, ${email}`, // list of receivers
-    subject: "Hi! Confiormation email", // Subject line
-    //text: "Hello world?", // plain text body
-    html: htmlMes(email, mens), // html body
-  });
-
-  console.log("Message sent: %s", info.messageId);
-  // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
-
-  // Preview only available when sending through an Ethereal account
-  console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
-  // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
-}
-
-//sendEmail().catch(console.error);
-
-//
-//
-//
-//
-//
-
 app.get("/", function (req, res) {
   res.render("pages/index");
 });
 //
 //
 //
-//
-//
-
-//
-//
-//
-//
-//
-
-app.get("/api", (req, res) => {
-  res.status(200).json({ mens: "Welcome to my rest API" });
-});
-
-//
-//
-//
-//load data
+//      load skill
 //
 //
 //
@@ -105,19 +43,22 @@ const dataS = require("./skill");
 //
 //
 //
-
+//      api configuration
+//
+//
+//
+app.get("/api", (req, res) => {
+  res.status(200).json({ mens: "Welcome to my rest API" });
+});
 app.get("/api/skill", (req, res) => {
   return res.send(dataS);
 });
-
+//
+//
+//      send email from API
 //
 //
 //
-//
-//
-//
-//
-
 app.get("/api/contact", (req, res) => {
   let email = req.query.email;
   let mens = req.query.mens;
@@ -125,11 +66,41 @@ app.get("/api/contact", (req, res) => {
   sendEmail(email, mens);
   res.end();
 });
+//
+//
+//      email config
+//
+//
+const nodemailer = require("nodemailer");
+//
+//
+//      import html Email funcion
+//
+//
+const htmlMes = require("./email/email");
+//
+//
+//      send email funcion
+//
+//
+async function sendEmail(email, mens) {
+  let transporter = nodemailer.createTransport({
+    host: "smtp.gmail.com",
+    port: 465,
+    secure: true,
+    auth: {
+      user: app.get("emailUser"), // form .env
+      pass: app.get("emailPass"), // from .env
+    },
+  });
+  let info = await transporter.sendMail({
+    from: "<dplopez.sioux@gmail.com>",
+    to: `dplopez.sioux@icloud.com, ${email}`,
+    subject: "Hi! Confiormation email",
+    html: htmlMes(email, mens), // html body from email funcion
+  });
+}
 
 app.listen(app.get("port"), () => {
-  console.log(
-    `Server is runing on port: ${app.get("port")}
-    )}`
-  );
-  console.log(app.get("emailUser"), app.get("emailUser"));
+  console.log(`Server is runing on port: ${app.get("port")}`);
 });

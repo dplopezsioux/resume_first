@@ -12,11 +12,17 @@ import axios from "axios";
 const FormEmail = () => {
   let [emailtosend, setEmailtosend] = useState("");
   let [menstosend, setMenstosend] = useState("");
+  let [stateContact, setStateContact] = useState("");
+
+  function notification() {
+    setStateContact("Sent.");
+    setTimeout(() => {
+      setStateContact("");
+    }, 3000);
+  }
 
   function handleSubmit(e) {
     e.preventDefault();
-    //setEmailtosend("OLE");
-    console.log("whats+", emailtosend, "+", menstosend);
     axios
       .get(
         `https://dpinformation.me/api/contact?email=${emailtosend}&mens=${menstosend}`
@@ -27,6 +33,7 @@ const FormEmail = () => {
       });
     setEmailtosend("");
     setMenstosend("");
+    notification();
   }
 
   function updateEmail(e) {
@@ -54,6 +61,7 @@ const FormEmail = () => {
                 id="exampleFormControlInput1"
                 placeholder="name@example.com"
                 onChange={updateEmail}
+                required
               />
             </div>
             <div className="mb-3">
@@ -65,13 +73,17 @@ const FormEmail = () => {
                 rows="3"
                 onChange={updateMens}
                 placeholder="message to send ..."
+                required
               ></textarea>
             </div>
 
             <div className="mb-3">
-              <button type="submit" className="btn btn-secondary mt-5">
-                Send!
-              </button>
+              <div className="p-0">
+                <button type="submit" className="btn btn-secondary mt-0">
+                  Send!
+                </button>
+                <label className="m-2 text-success">{stateContact}</label>
+              </div>
             </div>
           </form>
           <h6>This is a private Message</h6>
